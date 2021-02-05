@@ -1,13 +1,14 @@
 def divisor(x):
-    num = []
+    divisor = []
     for i in range(1, int(x ** 0.5) + 1):
         if x % i == 0:
-            num.append(i)
+            divisor.append(i)
             if i != x // i:
-                num.append(x // i)
-    num.sort()
-    return num
+                divisor.append(x // i)
+
+    divisor.sort()
+    return divisor
 
 n = int(input())
-div = divisor(n)
-print(div)
+num = divisor(n)
+print(num)
