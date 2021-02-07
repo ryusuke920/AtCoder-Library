@@ -26,11 +26,17 @@
 ## MathLibrary
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
+|BinaryToDecimal.py|2進数 -> 10進数への変換|2進数を10進数に変換してくれる|
+|DecimalToBinary.py|10進数 -> 2進数への変換|10進数を2進数に変換してくれる|
+|DigitSum_1.py|桁和(1)|intのまま桁和を求められる|
+|DigitSum_2.py|桁和(2)|strに変換した後に桁和を求められる|
 |divisor.py|約数列挙|約数の列挙を行ってくれる|
 |factorization.py|素因数分解|素因数分解を行ってくれる|
 |PrimaryCheck.py|素数判定|その数が素数かどうかの判定を行ってくれる  一般的には十分高速だが, 競プロ界隈だと遅い|
 |SieveOfEratosthenes_1|エラトステネスの篩 (Ver.1) |O(√N)よりも高速に素数を列挙してくれる （緑Diff以上になってくると使用するタイミングが出てくる）|
 |SieveOfEratosthenes_1|エラトステネスの篩 (Ver.2) |Ver.1 の時よりも高速に素数を列挙することができる|
+|CumulativeSum.py|累積和|累積和を行ってくれる|
+|MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
 
 ## RunLnegthEncoding
 |コード名|アルゴリズム|用途 ・ 説明|
