@@ -6,11 +6,6 @@
 ## BFS
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
-|BinaryIndexedTree.py|転倒数|転倒数を求められる|
-
-## BFS
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
 |BreadthFirstSearch.py|幅優先探索|迷路の最短経路を考える問題の時などに役に立つ|
 
 ## BitSearch
@@ -31,6 +26,7 @@
 ## MathLibrary
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
+|BinaryIndexedTree.py|転倒数|転倒数を求められる|
 |BinaryToDecimal.py|2進数 -> 10進数への変換|2進数を10進数に変換してくれる|
 |DecimalToBinary.py|10進数 -> 2進数への変換|10進数を2進数に変換してくれる|
 |DigitSum_1.py|桁和(1)|intのまま桁和を求められる|
