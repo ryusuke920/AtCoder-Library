@@ -38,6 +38,7 @@
 |SieveOfEratosthenes_1|エラトステネスの篩 (Ver.2) |Ver.1 の時よりも高速に素数を列挙することができる|
 |CumulativeSum.py|累積和|累積和を行ってくれる|
 |MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
+|nCk.py|combinationの計算|nCkの計算を高速に行える, 計算量はO(K)|
 
 ## RunLnegthEncoding
 |コード名|アルゴリズム|用途 ・ 説明|
