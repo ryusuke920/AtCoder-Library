@@ -6,6 +6,6 @@ def BinaryToDecimal(num):
         decimal_number += int(num[i]) * (2 ** i)
     return decimal_number
 
-n = 1010010011111010001
+n = 1010010011111010101
 ans = BinaryToDecimal(n)
 print(ans)
