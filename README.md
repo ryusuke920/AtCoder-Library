@@ -18,11 +18,6 @@
 |:--:|:--:|:--:|
 |DepthFirstSearch.py|深さ優先探索|辺を辿っていく問題などの時に役に立つ|
 
-## FromFloatToInt
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|FFTI.py|float -> int|floatの誤差計算を防ぐためにintに変換して計算する|
-
 ## MathLibrary
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
@@ -32,6 +27,7 @@
 |DigitSum_1.py|桁和(1)|intのまま桁和を求められる|
 |DigitSum_2.py|桁和(2)|strに変換した後に桁和を求められる|
 |divisor.py|約数列挙|約数の列挙を行ってくれる|
+|FromFloatToInt.py|float -> int|floatの誤差計算を防ぐためにintに変換して計算する|
 |factorization.py|素因数分解|素因数分解を行ってくれる|
 |PrimaryCheck.py|素数判定|その数が素数かどうかの判定を行ってくれる  一般的には十分高速だが, 競プロ界隈だと遅い|
 |SieveOfEratosthenes_1|エラトステネスの篩 (Ver.1) |O(√N)よりも高速に素数を列挙してくれる （緑Diff以上になってくると使用するタイミングが出てくる）|
