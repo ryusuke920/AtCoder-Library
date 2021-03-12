@@ -14,5 +14,5 @@ def factorization(n):
         arr.append([n, 1])
     return arr
 
-x = factorization(24)
+x = factorization(6)
 print(x)
