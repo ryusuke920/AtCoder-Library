@@ -36,6 +36,11 @@
 |MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
 |nCk.py|combinationの計算|nCkの計算を高速に行える, 計算量はO(K)|
 
+## LongestIncreasingSubsequence
+|コード名|アルゴリズム|用途 ・ 説明|
+|:--:|:--:|:--:|
+|lis.py|最長増加部分列|配列の最長増加列を出力してくれる|
+
 ## RunLnegthEncoding
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
