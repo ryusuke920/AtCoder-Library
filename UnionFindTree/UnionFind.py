@@ -1,3 +1,4 @@
+par = [i for i in range(n)]
 def find(x):
     if par[x] == x:
         return x
