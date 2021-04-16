@@ -18,6 +18,11 @@
 |:--:|:--:|:--:|
 |DepthFirstSearch.py|深さ優先探索|辺を辿っていく問題などの時に役に立つ|
 
+## Dijkstra
+|コード名|アルゴリズム|用途 ・ 説明|
+|:--:|:--:|:--:|
+|dijkstra.py|ダイクストラ法|ある頂点からの最小距離を求める|
+
 ## MathLibrary
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
@@ -36,7 +41,12 @@
 |MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
 |nCk.py|combinationの計算|nCkの計算を高速に行える, 計算量はO(K)|
 
-## LongestIncreasingSubsequence
+## LongestCommonSubsequence(LCS)
+|コード名|アルゴリズム|用途 ・ 説明|
+|:--:|:--:|:--:|
+|LCS.py|最長共通部分文字列|配列の最長共通部分列を出力してくれる|
+
+## LongestIncreasingSubsequence(LIS)
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
 |lis.py|最長増加部分列|配列の最長増加列を出力してくれる|
