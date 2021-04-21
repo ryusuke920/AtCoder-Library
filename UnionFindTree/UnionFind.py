@@ -17,4 +17,3 @@ def unite(x,y):
     if x < y:
         x, y = y, x
     par[x] = y
-
