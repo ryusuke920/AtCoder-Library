@@ -5,7 +5,7 @@ input = sys.stdin.readline
 def dijkstra(s, graph): # (始点, グラフのリスト)
     INF = 10 ** 18
     dist = [INF] * n # INF で初期化
-    check = [False] * n　# Bool
+    check = [False] * n # Bool
     dist[s] = 0
     q = [(0, s)] # （距離・ノード）
     while q:
