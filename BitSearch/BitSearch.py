@@ -1,4 +1,4 @@
-from itrtools import product
+from itertools import product
 
 def BitSearch(x, l): # リスト・数
     num = 0
