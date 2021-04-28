@@ -11,5 +11,5 @@ def combination(n, k):
         nCk %= mod
     return nCk
 
-n = combination(10000, 2)
+n = combination(20, 10)
 print(n)
