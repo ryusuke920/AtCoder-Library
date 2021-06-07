@@ -8,6 +8,20 @@
 |:--:|:--:|:--:|
 |BreadthFirstSearch.py|幅優先探索|迷路の最短経路を考える問題の時などに役に立つ|
 
+## BinarySearch
+|コード名|アルゴリズム|用途 ・ 説明|
+|:--:|:--:|:--:|
+|BinarySearch.py|二分探索|O(logN)で行えるのでとても高速|
+|MegurusikiBinarySearch.py|二分探索|O(logN)で行えるのでとても高速, めぐる式二分探索はとても有名だが、使いこなせていない|
+
+## Bisect
+|コード名|アルゴリズム|用途 ・ 説明|
+|:--:|:--:|:--:|
+|kLessThanBisect.py|二分探索|配列Aの中のうち、k未満の個数と終わりの0indexを返すライブラリ|
+|kMoreBisect.py|二分探索|配列Aの中のうち、kより大きいものの個数と始まりの0indexを返すライブラリ|
+|kOrLessThanBisect.py|二分探索|配列Aの中のうち、k以下の個数と終わりの0indexを返すライブラリ|
+|kOrMoreBisect.py|二分探索|配列Aの中のうち、k以上の個数と始まりの0indexを返すライブラリ|
+
 ## BIT
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
