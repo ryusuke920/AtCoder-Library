@@ -6,9 +6,10 @@ def binary_search(left, right):
     while abs(left - right) > 1:
         mid = (left + right) // 2
         if is_ok(mid):
-            right = mid
-        else:
             left = mid
+        else:
+            right = mid
+    return left
 
 INF = 10 ** 18
 l, r = -1, INF
