@@ -80,6 +80,7 @@
 |CumulativeSum.py|累積和|累積和を行ってくれる|
 |MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
 |nCk.py|combinationの計算|nCkの計算を高速に行える, 計算量はO(K)|
+|nCk_2.py|combinationの計算|nCk.pyのpowを最後に持ってきたから高速?, 計算量はO(K)|
 
 ## OtherLibrary
 |コード名|アルゴリズム|用途 ・ 説明|
