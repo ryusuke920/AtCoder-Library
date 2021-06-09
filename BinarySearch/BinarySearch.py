@@ -9,7 +9,7 @@ def binary_search(left, right):
             left = mid
         else:
             right = mid
-    return left
+    return left # Trueの方を返す？
 
 INF = 10 ** 18
 l, r = -1, INF
