@@ -1,6 +1,9 @@
 def is_ok(arg):
     # 条件を満たすかどうか？問題ごとに定義
-    return
+    if 1:
+        return True
+    else:
+       return False
 
 def binary_search(left, right):
     while abs(left - right) > 1:

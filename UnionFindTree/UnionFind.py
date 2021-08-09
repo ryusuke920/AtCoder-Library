@@ -1,4 +1,4 @@
-par = [i for i in range(n)]
+
 def find(x):
     if par[x] == x:
         return x
@@ -17,3 +17,14 @@ def unite(x,y):
     if x < y:
         x, y = y, x
     par[x] = y
+
+n, m = map(int,input().split())
+par = [i for i in range(n)]
+for i in range(m):
+    a, b = map(int,input().split())
+    unite(a - 1, b - 1)
+
+ans = [0] * n
+for i in range(n):
+    ans[find(i)] += 1
+print(max(ans))

@@ -3,7 +3,7 @@ from bisect import bisect_left
 
 def LIS(A, N): # 配列・長さ
     INF = 10 ** 18
-    dp = [INF] * n
+    dp = [INF] * N
     for i in A:
         x = bisect_left(dp, i)
         dp[x] = i

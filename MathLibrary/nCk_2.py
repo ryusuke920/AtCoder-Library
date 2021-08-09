@@ -17,5 +17,5 @@ def combination(n, k):
 
     return nCk % mod
 
-n = combination(20, 10)
-print(n)
+h, w = map(int,input().split())
+print(combination(h + w - 2, h - 1))

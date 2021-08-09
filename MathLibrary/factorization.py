@@ -13,7 +13,5 @@ def factorization(n):
     if arr == []:
         arr.append([n, 1])
     return arr
-a = [314, 159 ,265 ,358, 979, 323 ,846]
-for i in range(len(a)):
-    x = factorization(a[i])
-    print(a[i],x)
+
+print(factorization( 134714230))

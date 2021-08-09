@@ -1,4 +1,4 @@
-def solve(S, T):
+def LCS(S, T):
     L1 = len(S)
     L2 = len(T)
     dp = [[0] * (L2 + 1) for i in range(L1 + 1)]
@@ -24,4 +24,4 @@ def solve(S, T):
             j += 1
     return "".join(res)
 
-print(solve("asdcsascsadsd", "assdcascdascasca"))
+print(LCS("asdcsascsadsd", "assdcascdascasca"))
