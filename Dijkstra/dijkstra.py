@@ -18,3 +18,15 @@ def dijkstra(s, graph): # (始点, グラフのリスト)
             dist[i] = dist[v] + j
             heappush(q, (dist[i], i)) # 必ず[0]が距離になるように（優先度付きキュー）
     return dist
+
+n, m = map(int,input().split())
+# n = int(input())
+g = [[] for _ in range(n)]
+for _ in range(m):
+    x, y, cost = map(int,input().split())
+    x -= 1
+    y -= 1
+    g[x].append((cost, y))
+    g[y].append((cost, x))
+
+d = dijkstra(0, g)
