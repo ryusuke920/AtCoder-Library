@@ -14,13 +14,17 @@ for _ in range(n - 1):
 for i in range(n):
     g[i].sort()
 
-ans = []
-def dfs(now: int, prev: int):
+ans = [] # 頂点集合
+depth = [] # 深さの集合
+def dfs(now: int, prev: int, cnt: int):
     ans.append(now + 1)
+    depth.append(cnt)
     for nxt in g[now]:
         if nxt == prev: continue
-        dfs(nxt, now)
+        dfs(nxt, now, cnt + 1)
         ans.append(now + 1)
+        depth.append(cnt)
 
-dfs(0, -1)
+dfs(0, -1, 0)
 print(*ans)
+print(*depth)
