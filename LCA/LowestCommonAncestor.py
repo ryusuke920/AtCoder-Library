@@ -18,9 +18,10 @@ XOR：0
 """
 
 class SegTree:
-    def __init__(self, segfunc, init_val, ide_ele):
+    def __init__(self, segfunc, init_val, ide_ele, euler):
         self.segfunc = segfunc
         self.ide_ele = ide_ele
+        self.euler = euler
         self.num = 2 ** n.bit_length()
         self.seg = [self.ide_ele] * 2 * self.num
         for i in range(n):
@@ -54,8 +55,7 @@ class SegTree:
             res = self.segfunc(res, self.seg[l])
         else:
             res = self.segfunc(res, self.segfunc(self.seg[l], self.seg[r]))
-        return res
-
+        return res,l, r,self.seg
 
 def EulerTour(g):
     ans = [] # 頂点集合
@@ -79,27 +79,33 @@ for i in range(n):
     a = list(map(int,input().split()))[1:]
     for j in a:
         g[i].append(j)
+        g[j].append(i)
 
 for i in range(n):
     g[i].sort()
 
 euler, depth = EulerTour(g) # 頂点集合・深さの集合
 
-fast = [] # 最初に出現した位置
-for i in euler:
-    if i not in fast:
-        fast.append(i)
+fast = [-1] * n # 最初に出現した位置
 
-print("頂点の集合", euler)
-print("深さ", depth)
+for i, j in enumerate(euler):
+    if fast[j] == -1:
+        fast[j] = i
+
+print( euler, "頂点の集合")
+print(depth,"深さ")
 print("最初に出てきた位置", fast)
 
-INF = 0
+INF = 10 ** 18
 ide_ele = INF # 初期値（単位元）の設定
-seg = SegTree(segfunc, depth, ide_ele) # オブジェクトの作成
+n = len(euler)
+seg = SegTree(segfunc, depth, ide_ele, euler) # オブジェクトの作成
 
 q = int(input())
 for i in range(q):
     u, v = map(int,input().split())
-    ans = seg.segfunc(u, v)
+    x, y = fast[u], fast[v]
+    if x > y:
+        x, y = y, x
+    ans = seg.query(x, y + 1)
     print(ans)
