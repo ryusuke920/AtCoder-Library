@@ -1,13 +1,13 @@
-# https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_12_A&lang=ja
 # 最小全域木（プリム法）
 from heapq import heappop, heappush, heapify
 
-n = int(input())
+n, m = map(int,input().split())
 
-g = []
-for _ in range(n):
-    l = list(map(int,input().split()))
-    g.append([(cost, i) for i, cost in enumerate(l) if cost != -1])
+g = [[] for _ in range(n)]
+for _ in range(m):
+    u, v, cost = map(int,input().split())
+    g[u].append((cost, v))
+    g[v].append((cost, u))
 
 visited = [0] * n
 connection = 0

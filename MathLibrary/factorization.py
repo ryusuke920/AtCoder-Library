@@ -14,4 +14,4 @@ def factorization(n):
         arr.append([n, 1])
     return arr
 
-print(factorization( 134714230))
+print(factorization(2592))
