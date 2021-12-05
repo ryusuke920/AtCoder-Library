@@ -9,7 +9,7 @@ def divisors(n):
     divisor.sort()
     return divisor
 
-x = divisors(10200)
+x = divisors(10 ** 12)
 y = divisors(136)
-print(x)
+print(len(x))
 print(y)

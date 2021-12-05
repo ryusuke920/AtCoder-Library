@@ -9,7 +9,7 @@ for _ in range(m):
     g[u].append((cost, v))
     g[v].append((cost, u))
 
-visited = [0] * n
+visited = [False] * n
 connection = 0
 q = []
 q.append((0, 0))
@@ -20,7 +20,7 @@ while q:
     cost, v = heappop(q)
     if visited[v]: continue
 
-    visited[v] = 1
+    visited[v] = True
     connection += 1
     ans += cost
 

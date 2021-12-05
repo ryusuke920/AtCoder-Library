@@ -11,5 +11,4 @@ def primes(n):
 n = 100
 x = primes(n) # 素数の全列挙
 l = len(x) # 素数の数
-print(x)
 print(l)
