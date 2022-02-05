@@ -1,18 +1,18 @@
 def is_ok(arg):
-    # 条件を満たすかどうか？問題ごとに定義
     if 1:
         return True
     else:
        return False
 
-def binary_search(left, right):
+def binary_search(left: int, right: int) -> int:
     while abs(left - right) > 1:
         mid = (left + right) // 2
         if is_ok(mid):
             left = mid
         else:
             right = mid
-    return left # Trueの方を返す？
+
+    return left
 
 INF = 10 ** 18
 l, r = -1, INF
