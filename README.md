@@ -4,44 +4,19 @@
 
 (*stores AtCoder-Library.*)  
 
-## BFS
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|BreadthFirstSearch.py|幅優先探索|迷路の最短経路を考える問題の時などに役に立つ|
+## Algorithm List
 
-## BinarySearch
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|BinarySearch.py|二分探索|O(logN)で行えるのでとても高速|
-|MegurusikiBinarySearch.py|二分探索|O(logN)で行えるのでとても高速, めぐる式二分探索はとても有名だが、使いこなせていない|
+|Algorithm|Contents|
+|:--:|:--:|
+|[Compression](Compression)|座標圧縮・RLEなど圧縮関連のライブラリ|
+|[DP](DP)|DP関連のライブラリ|
+|[Graph](Graph)|グラフ問題|
+|[MathLibrary](MathLibrary)|算数・数学・幾何関連のライブラリ|
+|[Other](Other)|その他|
+|[Rotate](Rotate)|回転関連のライブラリ|
+|[Search](Search)|探索関連のライブラリ|
+|[Tree](Tree)|木関連のライブラリ|
 
-## Bisect
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|kLessThanBisect.py|二分探索|配列Aの中のうち、k未満の個数と終わりの0indexを返すライブラリ|
-|kMoreBisect.py|二分探索|配列Aの中のうち、kより大きいものの個数と始まりの0indexを返すライブラリ|
-|kOrLessThanBisect.py|二分探索|配列Aの中のうち、k以下の個数と終わりの0indexを返すライブラリ|
-|kOrMoreBisect.py|二分探索|配列Aの中のうち、k以上の個数と始まりの0indexを返すライブラリ|
-
-## BIT
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|BinaryIndexedTree.py|転倒数|転倒数を求められる|
-
-## BitSearch
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|BitSearch.py|Bit全探索|スイッチの ON / OFF 問題などに使える  計算量は O(2 ^ N)|
-
-## CoordinateCompression
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|CC.py|座標圧縮|配列の数値を昇順に順位付けする|
-
-## DFS
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|DepthFirstSearch.py|深さ優先探索|辺を辿っていく問題などの時に役に立つ|
 
 ## Dijkstra
 |コード名|アルゴリズム|用途 ・ 説明|
@@ -83,28 +58,7 @@
 |nCk.py|combinationの計算|nCkの計算を高速に行える, 計算量はO(K)|
 |nCk_2.py|combinationの計算|nCk.pyのpowを最後に持ってきたから高速?, 計算量はO(K)|
 
-## OtherLibrary
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|debug.py|デバッグ用のprint出力|これを出力しても標準エラー出力になるので、ジャッジに反映されない|
-
-## RunLengthEncoding
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|RLE.py|ランレングス圧縮|２種類くらいのランダム文字列を何の文字が何連続で出てきたかを出力してくれる|
-
 ## SCC
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
 |SCC.py|強連結成分分解(Strongly Connevted Component)|閉路検出を行ってくれる|
-
-## SegmentTree
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|SegTree.py|セグメントツリー|区間に対して色々なことができる|
-|LazySegTree.py|遅延評価セグメントツリー|区間全体に対して色々なことができる|
-
-## UnionFindTree
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|UnionFind.py|素集合に分割するアルゴリズム|まだ使用しているのみで, 具体的な構造はわかっていない|
