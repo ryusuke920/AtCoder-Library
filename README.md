@@ -1,6 +1,6 @@
 # AtCoder-Library
 
-AtCoderのライブラリを保管しています。
+[AtCoder](https://atcoder.jp/) のライブラリを保管しています。
 
 (*stores AtCoder-Library.*)  
 
