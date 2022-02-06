@@ -13,6 +13,6 @@
 |[Kruskal.py](Kruskal.py)|クラスカル法|最小全域木を求める。Union-Findを用いてグラフの連結判定を行う。|
 |[LowestCommonAncestor.py](LowestCommonAncestor.py)|最小共通祖先|ある２つの頂点に対して、その両方を自身以下に持つ頂点のうち、最も低い位置にある頂点を求める|
 |[Prim.py](Prim.py)|プリム法|最小全域木を求める。訪れた頂点数をカウントしながら求める。|
-|[Strongly Connected Component](Strongly Connected Component)|強連結成分分解|有向グラフにおいて、互いに行き来が可能な頂点の集合を求める。|
+|[StronglyConnectedComponent.py](StronglyConnectedComponent.py)|強連結成分分解|有向グラフにおいて、互いに行き来が可能な頂点の集合を求める。|
 |[TopologicalSort.py](TopologicalSort.py)|トポロジカルソート|有向非巡回グラフの各頂点を順序付けして、どの頂点もその出力辺の先の頂点より前に来るように並べる。DAG(Directed Acyclic Graph)との相性が良い|
 |[warshall_floyd.py](warshall_floyd.py)|ワーシャルフロイド法|O(N^3)かかってしまうため、頂点数が少ない時に有効|
