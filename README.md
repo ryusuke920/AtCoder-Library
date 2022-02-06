@@ -1,4 +1,4 @@
-# AtCoder-Library(Python)
+# AtCoder-Library (Python) [![Actions Status](https://github.com/ryusuke920/AtCoder-Library/workflows/verify/badge.svg)](https://github.com/ryusuke920/AtCoder-Library/actions)
 
 [AtCoder](https://atcoder.jp/) のライブラリを保管しています。
 
