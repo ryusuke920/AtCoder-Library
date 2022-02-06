@@ -1,4 +1,4 @@
-# AtCoder-Library
+# AtCoder-Library(Python)
 
 [AtCoder](https://atcoder.jp/) のライブラリを保管しています。
 
