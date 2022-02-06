@@ -1,5 +1,5 @@
-# 桁の和を求める（intのまま計算するパターン）
 def DigitSum(num: int) -> int:
+    '''int 型の桁和を求める'''
     digit_sum = 0
 
     while num > 0:
@@ -9,5 +9,4 @@ def DigitSum(num: int) -> int:
     return digit_sum
 
 n = 1234567890
-ans = DigitSum(n)
-print(ans)
+print(DigitSum(n))

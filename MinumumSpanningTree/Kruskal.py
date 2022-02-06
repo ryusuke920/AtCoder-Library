@@ -26,10 +26,14 @@ class UnionFind:
   def size(self, a): return -self.p[self.leader(a)]
 
 n, m = map(int, input().split())
+
 uf = UnionFind(n)
+
 # (a, b, cost)の無向グラフ
+
 g = [list(map(int, input().split())) for _ in range(m)]
 g.sort(key=lambda x: x[2])
+
 ans = 0
 for i, j, cost in g:
     if uf.same(i, j): continue

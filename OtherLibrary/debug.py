@@ -1,5 +1,6 @@
 import sys
 debug = lambda *x : print(*x, file = sys.stderr)
+
 """
 これを使用すると、標準エラー出力になるので、printしてもジャッジに反映されない
 """

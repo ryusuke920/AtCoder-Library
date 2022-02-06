@@ -1,3 +1,4 @@
+# 計算量：O(|V||E|)
 def bellman_ford(s: int) -> list:
     '負のコストを持つ最短経路問題'
     INF = 10 ** 18
@@ -9,14 +10,14 @@ def bellman_ford(s: int) -> list:
             if dist[a] > dist[b] + cost:
                 dist[a] = dist[b] + cost
                 update = True
-        
+
         # 更新が行われなければそれが最短経路となる
         if not update:
             break
 
         if i == n - 1:
             return -1
-    
+
     return dist
 
 n, m = map(int, input().split())

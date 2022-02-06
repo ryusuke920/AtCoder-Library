@@ -1,15 +1,30 @@
-def combination(n, k):
-    nCk = 1
-    mod = 10 ** 9 + 7
+def calc_facinv(n: int) -> list:
+    '逆元テーブルを作成する'
 
-    for i in range(n - k + 1, n + 1):
-        nCk *= i
-        nCk %= mod
+    # 階乗テーブルの作成
+    fac = [0] * (n + 1)
+    fac[0] = 1
+    for i in range(1, n + 1):
+        fac[i] = fac[i - 1] * i
+        fac[i] %= mod
+    
+    # 逆元テーブルの作成
+    fac_inv = [0] * (n + 1)
+    fac_inv[0] = 1
+    for i in range(1, n + 1):
+        fac_inv[i] = pow(fac[i], mod - 2, mod)
+    
+    return fac, fac_inv
 
-    for i in range(1, k + 1):
-        nCk *= pow(i, mod - 2, mod)
-        nCk %= mod
-    return nCk
+def combination(n: int, k: int) -> int:
+    '''nCkを計算する'''
 
-n = combination(20, 10)
-print(n)
+    return fac[n] * fac_inv[k] * fac_inv[n - k] % mod
+
+n, k = map(int, input().split())
+
+mod = 10 ** 9 + 7
+fac, fac_inv = calc_facinv(n)
+
+ans = combination(n, k)
+print(ans)
