@@ -17,17 +17,6 @@
 |[Search](Search)|探索関連のライブラリ|
 |[Tree](Tree)|木関連のライブラリ|
 
-
-## Dijkstra
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|dijkstra.py|ダイクストラ法|ある頂点からの最小距離を求める|
-
-## ExtendedEuclidean
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|ExtGCD.py|拡張ユークリッドの互除法|ap + bq = d := gcd(a, b)となる (p, q, d) を返す|
-
 ## LongestCommonSubsequence(LCS)
 |コード名|アルゴリズム|用途 ・ 説明|
 |:--:|:--:|:--:|
@@ -46,6 +35,7 @@
 |DigitSum_1.py|桁和(1)|intのまま桁和を求められる|
 |DigitSum_2.py|桁和(2)|strに変換した後に桁和を求められる|
 |divisor.py|約数列挙|約数の列挙を行ってくれる|
+|ExtGCD.py|拡張ユークリッドの互除法|ap + bq = d := gcd(a, b)となる (p, q, d) を返す|
 |FromFloatToInt.py|float -> int|floatの誤差計算を防ぐためにintに変換して計算する|
 |factorization.py|素因数分解|素因数分解を行ってくれる|
 |PrimaryCheck.py|素数判定|その数が素数かどうかの判定を行ってくれる  一般的には十分高速だが, 競プロ界隈だと遅い|
@@ -57,8 +47,3 @@
 |MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
 |nCk.py|combinationの計算|nCkの計算を高速に行える, 計算量はO(K)|
 |nCk_2.py|combinationの計算|nCk.pyのpowを最後に持ってきたから高速?, 計算量はO(K)|
-
-## SCC
-|コード名|アルゴリズム|用途 ・ 説明|
-|:--:|:--:|:--:|
-|SCC.py|強連結成分分解(Strongly Connevted Component)|閉路検出を行ってくれる|
