@@ -30,7 +30,7 @@ def bfs(sy: int, sx: int) -> list:
     
     return dist
 
-h, w = map(int,input().split())
+h, w = map(int, input().split())
 grid = [list(input()) for _ in range(h)]
 
 dist = bfs(0, 0)
