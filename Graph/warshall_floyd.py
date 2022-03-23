@@ -23,4 +23,4 @@ for i in range(m):
     dist[y - 1][x - 1] = r
 
 # sからtへの最短距離を求める
-ans = warshall_floyd(dist)
+ans = warshall_floyd()
