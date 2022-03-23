@@ -32,7 +32,6 @@ dist = bfs(0)
 max_dist = max(dist)
 for i in range(N):
     if dist[i] == max_dist:
-        # 木の直径を求める
         diameter = max(bfs(i))
         break
 
