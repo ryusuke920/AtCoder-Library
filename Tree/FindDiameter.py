@@ -1,4 +1,4 @@
-# 木の中心を求める O(N^3)
+# 木の直径を求める O(N^3)
 
 from collections import deque
 
@@ -26,7 +26,9 @@ for _ in range(N - 1):
     g[a].append(b)
     g[b].append(a)
 
+
 dist = bfs(0)
+
 max_dist = max(dist)
 for i in range(N):
     if dist[i] == max_dist:
@@ -34,17 +36,4 @@ for i in range(N):
         diameter = max(bfs(i))
         break
 
-# ある頂点が木の中心であるならば、すべての頂点への距離は「(木の直径 / 2)以下」となる
-center = []
-for i in range(N):
-    dist = bfs(i)
-    check = True
-    for j in range(N):
-        if dist[j] > (diameter + 1) // 2:
-            check = False
-    if check:
-        center.append(i + 1)
-
-center.sort()
-for i in center:
-    print(i)
+print(diameter)
