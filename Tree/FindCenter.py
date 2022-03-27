@@ -1,4 +1,4 @@
-# 木の中心を求める O(N^3)
+# 木の中心を求める O(N) or O(NlogN) (DefaultDictの計算量が不明なため)
 # 1-indexedで表された木の中心となりうる頂点の集合を改行区切りで出力します。
 from collections import deque
 from collections import defaultdict
