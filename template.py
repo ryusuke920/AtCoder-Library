@@ -9,6 +9,7 @@ from itertools import product, permutations, combinations, combinations_with_rep
 from heapq import heapify, heappop, heappush
 from bisect import bisect, bisect_left, bisect_right
 
+
 def min(a: int, b: int) -> int:
     "最小値"
     return a if a <= b else b
@@ -17,6 +18,7 @@ def min(a: int, b: int) -> int:
 def max(a: int, b: int) -> int:
     "最大値"
     return a if a >= b else b
+
 
 def OutOfRange(h: int, w: int, vy: int, vx: int) -> bool:
     "BFSなどの配列外参照"
