@@ -7,4 +7,4 @@
 ## String
 |File Name|Algorithm|Explanation|
 |:--:|:--:|:--:|
-|[BoyerMoore.py](BoyerMoore.py)|ボイヤー・ムーア法|O(|S|)で探索文字列を探します|
+|[BoyerMoore.py](BoyerMoore.py)|ボイヤー・ムーア法|O(\|S\|)で探索文字列を探します|
