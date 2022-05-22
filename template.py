@@ -10,13 +10,35 @@ from heapq import heapify, heappop, heappush
 from bisect import bisect, bisect_left, bisect_right
 
 
-def min(a: int, b: int) -> int:
-    "最小値"
+def min_int(a: int, b: int) -> int:
+    "2数の最小値"
     return a if a <= b else b
 
 
-def max(a: int, b: int) -> int:
-    "最大値"
+def min_list(a: list) -> int:
+    "リストの最小値"
+    global INF
+    cnt = INF
+    for i in range(len(a)):
+        if a[i] < cnt:
+            cnt = a[i]
+
+    return cnt
+
+
+def min_list(a: list) -> int:
+    "リストの最大値"
+    global INF
+    cnt = -INF
+    for i in range(len(a)):
+        if a[i] > cnt:
+            cnt = a[i]
+
+    return cnt
+
+
+def max_int(a: int, b: int) -> int:
+    "2数の最大値"
     return a if a >= b else b
 
 
