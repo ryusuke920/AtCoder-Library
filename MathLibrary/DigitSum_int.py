@@ -8,5 +8,4 @@ def DigitSum(num: int) -> int:
 
     return digit_sum
 
-n = 1234567890
-print(DigitSum(n))
+print(DigitSum(1234567890))
