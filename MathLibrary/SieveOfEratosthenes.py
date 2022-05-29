@@ -11,7 +11,7 @@ def primes(n: int) -> list:
         for j in range(i * 2, n + 1, i):
             is_prime[j] = False
 
-    return [i for i in range(n + 1) if is_prime[i]]
+    return [i for i, j in enumerate(is_prime) if j]
 
 x = primes(100) # 素数の全列挙
 print(len(x), x)
