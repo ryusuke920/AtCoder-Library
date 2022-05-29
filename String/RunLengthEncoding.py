@@ -1,4 +1,4 @@
-def rle(S: str) -> list:
+def RLE(S: str) -> list:
     tmp, cnt, ans = S[0], 1, []
     for i in range(1, len(S)):
         if tmp == S[i]:
@@ -13,4 +13,4 @@ def rle(S: str) -> list:
     return ans
 
 s = "RRRLLRLRRLLLLRLRLRR"
-print(*rle(s), sep="\n")
+print(*RLE(s), sep="\n")
