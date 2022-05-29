@@ -16,8 +16,7 @@
 |FromFloatToInt.py|float -> int|floatの誤差計算を防ぐためにintに変換して計算する|
 |factorization.py|素因数分解|素因数分解を行ってくれる|
 |PrimaryCheck.py|素数判定|その数が素数かどうかの判定を行ってくれる  一般的には十分高速だが, 競プロ界隈だと遅い|
-|SieveOfEratosthenes_1.py|エラトステネスの篩 (Ver.1) |O(√N)よりも高速に素数を列挙してくれる （緑Diff以上になってくると使用するタイミングが出てくる）|
-|SieveOfEratosthenes_2.py|エラトステネスの篩 (Ver.2) |Ver.1 の時よりも高速に素数を列挙することができる|
+|[SieveOfEratosthenes.py](SieveOfEratosthenes.py)|エラトステネスの篩|素数を列挙を行う, 計算量は O(√Nlog√N)?|
 |[XorToN.py](XorToN.py)|０〜NまでのXORをとる|計算量はO(1)|
 |CumulativeSum.py|累積和|累積和を行ってくれる|
 |MaxCumulativeSum.py|区間累積和の最大・最小問題|区間累積和の最大・最小を求められる|
