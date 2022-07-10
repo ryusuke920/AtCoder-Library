@@ -32,7 +32,7 @@ dist = bfs(0)
 max_dist = max(dist)
 for i in range(N):
     if dist[i] == max_dist:
-        diameter = max(bfs(i))
+        start = i
         break
 
-print(diameter)
+print(max(bfs(start)))
