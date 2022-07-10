@@ -1,5 +1,6 @@
-def RightRotate(l: list, h: int, w: int) -> list:
+def RightRotate(l: list) -> list:
     """右に90°回転させる"""
+    h, w = len(l), len(l[0])
     ans = [[None] * h for _ in range(w)]
     for i in range(h):
         for j in range(w):
@@ -7,5 +8,5 @@ def RightRotate(l: list, h: int, w: int) -> list:
 
     return ans
 
-sample = [[0, 1, 2, 3], [5, 6, 7, 8], [9, 10, 11, 12]] # 3 * 4
-print(*RightRotate(sample ,3, 4), sep="\n")
+sample = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]]
+print(*RightRotate(sample), sep="\n")

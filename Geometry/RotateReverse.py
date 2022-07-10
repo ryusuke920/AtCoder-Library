@@ -1,5 +1,6 @@
-def ReverseRotate(l: list, h: int, w: int) -> list:
+def ReverseRotate(l: list) -> list:
     """180°回転させる"""
+    h, w = len(l), len(l[0])
     ans = [[None] * w for _ in range(h)]
     for i in range(h):
         for j in range(w):
@@ -7,5 +8,5 @@ def ReverseRotate(l: list, h: int, w: int) -> list:
 
     return ans
 
-sample = [[0, 1, 2, 3], [5, 6, 7, 8], [9, 10, 11, 12]] # 3 * 4
-print(*ReverseRotate(sample ,3, 4), sep="\n")
+sample = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]]
+print(*ReverseRotate(sample), sep="\n")
