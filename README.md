@@ -8,8 +8,6 @@
 
 ## Algorithm List
 
-※リンクを辿るとコードが閲覧出来ます。
-
 |Algorithm|Contents|
 |:--:|:--:|
 |[DP](DP)|DP関連のライブラリ|
