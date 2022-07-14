@@ -32,7 +32,7 @@ class UnionFind:
         return -self.p[self.leader(a)]
 
 def main() -> None:
-    n, m = map(int,input().split())
+    n, m = map(int, input().split())
 
     uf = UnionFind(n)
 

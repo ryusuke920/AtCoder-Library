@@ -5,7 +5,7 @@ sys.path.append('../..')
 
 from Tree import UnionFindTree
 
-n, q = map(int,input().split())
+n, q = map(int, input().split())
 
 uf = UnionFindTree.UnionFind(n)
 
