@@ -31,16 +31,20 @@ class UnionFind:
     def size(self, a):
         return -self.p[self.leader(a)]
 
-n, m = map(int,input().split())
+def main() -> None:
+    n, m = map(int,input().split())
 
-uf = UnionFind(n)
+    uf = UnionFind(n)
 
-for _ in range(m):
-    a, b = map(int,input().split())
-    uf.merge(a - 1, b - 1)
+    for _ in range(m):
+        a, b = map(int,input().split())
+        uf.merge(a - 1, b - 1)
 
-ans = 0
-for i in range(n):
-    ans = max(ans, uf.size(i))
+    ans = 0
+    for i in range(n):
+        ans = max(ans, uf.size(i))
 
-print(ans)
+    print(ans)
+
+if __name__ == "__main__":
+    main()
