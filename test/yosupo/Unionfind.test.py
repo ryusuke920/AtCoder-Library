@@ -1,17 +1,15 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/unionfind
 
-import sys
-sys.path.append('../..')
+from Tree.UnionFindTree import UnionFind
 
-from Tree import UnionFindTree
+def main():
+    n, q = map(int, input().split())
 
-n, q = map(int, input().split())
+    uf = UnionFind(n)
 
-uf = UnionFindTree.UnionFind(n)
+    for _ in range(q):
+        t, u, v = map(int,input().split())
+        print(1) if uf.same(u, v) else print(0) if t else uf.merge(u, v)
 
-for _ in range(q):
-    t, u, v = map(int,input().split())
-    if t == 0:
-        uf.merge(u, v)
-    elif t == 1:
-        print(1) if uf.same(u, v) else print(0)
+if __name__ == "__main__":
+    main()
