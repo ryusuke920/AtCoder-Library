@@ -2,7 +2,8 @@
 
 import sys
 from pathlib import Path
-sys.path.append(Path(__file__).parents[2].__str__())
+p = Path(__file__).parts
+sys.path.append('/'.join(p[:p.index('AtCoder-Library')+1]))
 
 from Tree import UnionFindTree
 
