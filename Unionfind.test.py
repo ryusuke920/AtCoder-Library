@@ -9,7 +9,10 @@ def main():
 
     for _ in range(q):
         t, u, v = map(int,input().split())
-        print(1) if uf.same(u, v) else print(0) if t else uf.merge(u, v)
+        if t == 0:
+            uf.merge(u, v)
+        elif t == 1:
+            print(int(uf.same(u, v)))
 
 if __name__ == "__main__":
     main()
