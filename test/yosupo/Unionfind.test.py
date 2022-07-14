@@ -1,9 +1,8 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/unionfind
 
-'''
 import sys
-sys.path.append('../..')
-'''
+from pathlib import Path
+sys.path.append(Path(__file__).parents[2].__str__())
 
 from Tree import UnionFindTree
 
