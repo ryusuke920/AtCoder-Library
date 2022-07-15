@@ -1,9 +1,9 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/unionfind
 
-'''
 import sys
-sys.path.append('../..')
-'''
+from pathlib import Path
+p = Path(__file__).parts
+sys.path.append('/'.join(p[:p.index('AtCoder-Library')+1]))
 
 from Tree import UnionFindTree
 
