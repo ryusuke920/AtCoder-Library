@@ -6,8 +6,13 @@
 # https://qiita.com/tatyam/items/492c70ac4c955c055602
 
 '''
-SortedSetの使用例
+使用例
+
 ABC217-D - CuttingWoods https://atcoder.jp/contests/abc217/tasks/abc217_d
+https://atcoder.jp/contests/abc217/submissions/32096323
+
+ABC260-D - Draw Your Cards https://atcoder.jp/contests/abc260/tasks/abc260_d
+https://atcoder.jp/contests/abc260/submissions/33353118
 '''
 
 from math import ceil, sqrt
