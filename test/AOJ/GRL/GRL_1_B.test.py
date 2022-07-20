@@ -3,9 +3,8 @@
 import sys
 from pathlib import Path
 
-#p = Path(__file__).parts
-#sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
-sys.path.append('../../..')
+p = Path(__file__).parts
+sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
 
 from Graph import BellmanFord
 from Search import BreadthFirstSearch_graph

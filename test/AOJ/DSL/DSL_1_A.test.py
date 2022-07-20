@@ -2,6 +2,7 @@
 
 import sys
 from pathlib import Path
+
 p = Path(__file__).parts
 sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
 
