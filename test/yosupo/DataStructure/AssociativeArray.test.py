@@ -1,4 +1,4 @@
-# verification-helper: PROBLEM https://judge.yosupo.jp/submission/95777
+# verification-helper: PROBLEM https://judge.yosupo.jp/problem/associative_array
 
 from collections import defaultdict
 
