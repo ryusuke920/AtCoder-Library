@@ -1,7 +1,10 @@
 {
-"example.test.cpp": "2022-02-06 19:49:39 +0900",
 "test/AOJ/DSL/DSL_1_A.test.py": "1970-01-01 00:00:00 +0000",
 "test/AOJ/GRL/GRL_1_B.test.py": "1970-01-01 00:00:00 +0000",
 "test/AOJ/Volume0/0001.test.py": "2022-07-20 09:42:30 +0900",
-"test/yosupo/DataStructure/Unionfind.test.py": "1970-01-01 00:00:00 +0000"
+"test/sample/example.test.cpp": "2022-07-23 00:41:40 +0900",
+"test/yosupo/DataStructure/Unionfind.test.py": "1970-01-01 00:00:00 +0000",
+"test/yosupo/Sample/A+B.test.py": "2022-07-23 00:41:10 +0900",
+"test/yosupo/Sample/ManyA+B.test.py": "2022-07-23 00:41:10 +0900",
+"test/yukicoder/1.test.py": "1970-01-01 00:00:00 +0000"
 }
