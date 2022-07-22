@@ -1,7 +1,7 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_B
 
 from Graph.BellmanFord import bellman_ford
-from SearchBreadthFirstSearch_graph import bfs
+from Search.BreadthFirstSearch_graph import bfs
 
 
 def main():
