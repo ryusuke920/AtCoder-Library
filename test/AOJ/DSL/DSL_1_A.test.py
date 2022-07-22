@@ -1,17 +1,11 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A
 
-import sys
-from pathlib import Path
-
-p = Path(__file__).parts
-sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
-
-from Tree import UnionFindTree
+from Tree.UnionFindTree import UnionFind
 
 def main():
     n, q = map(int, input().split())
 
-    uf = UnionFindTree.UnionFind(n)
+    uf = UnionFind(n)
 
     for _ in range(q):
         com, x, y = map(int, input().split())

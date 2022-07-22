@@ -1,13 +1,7 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_B
 
-import sys
-from pathlib import Path
-
-p = Path(__file__).parts
-sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
-
-from Graph import BellmanFord
-from Search import BreadthFirstSearch_graph
+from Graph.BellmanFord import bellman_ford
+from SearchBreadthFirstSearch_graph import bfs
 
 
 def main():
@@ -19,7 +13,7 @@ def main():
         s[i], t[i], d[i] = map(int, input().split())
         g[s[i]].append(t[i])
 
-    dist = BreadthFirstSearch_graph.bfs(V, g, r)
+    dist = bfs(V, g, r)
     judge = [False] * V
 
     for i in range(V):
@@ -31,7 +25,7 @@ def main():
         if judge[s[i]]:
             g.append((s[i], t[i], d[i]))
 
-    ans = BellmanFord.bellman_ford(V, g, r)
+    ans = bellman_ford(V, g, r)
     if ans == -1:
         print('NEGATIVE CYCLE')
     else:
