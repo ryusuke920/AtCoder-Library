@@ -9,7 +9,6 @@ sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
 from Graph import BellmanFord
 from Search import BreadthFirstSearch_graph
 
-
 def main():
     V, E, r = map(int, input().split())
     s, t, d = [0] * E, [0] * E, [0] * E
