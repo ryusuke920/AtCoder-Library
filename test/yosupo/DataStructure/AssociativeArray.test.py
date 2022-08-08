@@ -1,6 +1,8 @@
-# verification-helper: PROBLEM https://judge.yosupo.jp/submission/95777
+# verification-helper: PROBLEM https://judge.yosupo.jp/problem/associative_array
 
 from collections import defaultdict
+import sys
+input = sys.stdin.readline
 
 def main() -> None:
     d = defaultdict(int)
@@ -9,11 +11,9 @@ def main() -> None:
     for _ in range(Q):
         query = list(map(int, input().split()))
         if query[0] == 0:
-            k, v = query[1], query[2]
-            d[k] = v
+            d[query[1]] = query[2]
         elif query[0] == 1:
-            k = query[1]
-            print(d[k])
+            print(d[query[1]])
 
 if __name__ == "__main__":
     main()
