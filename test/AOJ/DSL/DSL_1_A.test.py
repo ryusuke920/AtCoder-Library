@@ -1,10 +1,7 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A
 
 import sys
-from pathlib import Path
-
-p = Path(__file__).parts
-sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
+sys.path.append("../../../")
 
 from Tree import UnionFindTree
 
