@@ -13,7 +13,3 @@ def binary_search(left: int, right: int) -> int:
             right = mid
 
     return left
-
-INF = 10 ** 18
-l, r = -1, INF
-print(binary_search(l, r))
