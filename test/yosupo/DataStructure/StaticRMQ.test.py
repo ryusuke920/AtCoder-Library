@@ -5,12 +5,12 @@ input = sys.stdin.readline
 
 sys.path.append("../../../")
 
-from Tree import RMQ
+from Tree import RangeMinimamQuery
 
 def main():
     N, Q = map(int,input().split())
     a = list(map(int,input().split()))
-    seg = RMQ.SegTree(RMQ.segfunc, a, float('inf'))
+    seg = RangeMinimamQuery.SegTree(a, float('inf'))
 
     for _ in range(Q):
         l, r = map(int, input().split())
