@@ -21,8 +21,8 @@ data:
     \ vy + dy\n            x = vx + dx\n            if not (0 <= x < w and 0 <= y\
     \ < h):continue\n            if grid[y][x] == '#': continue\n            if dist[y][x]\
     \ != INF: continue\n            dist[y][x] = dist[vy][vx] + 1\n            q.append((y,\
-    \ x))\n    \n    return dist\n\ndef main() -> None:\n    global h, w, grid\n\n\
-    \    h, w = map(int, input().split())\n    grid = [list(input()) for _ in range(h)]\n\
+    \ x))\n\n\n    return dist\n\ndef main() -> None:\n    global h, w, grid\n\n \
+    \   h, w = map(int, input().split())\n    grid = [list(input()) for _ in range(h)]\n\
     \n    dist = bfs(0, 0)\n    print(*dist, sep='\\n')\n\nif __name__ == \"__main__\"\
     :\n    main()"
   dependsOn: []
