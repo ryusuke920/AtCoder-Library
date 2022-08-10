@@ -24,7 +24,8 @@ def bfs(sy: int, sx: int) -> list:
             if dist[y][x] != INF: continue
             dist[y][x] = dist[vy][vx] + 1
             q.append((y, x))
-    
+
+
     return dist
 
 def main() -> None:

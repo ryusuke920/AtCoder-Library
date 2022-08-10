@@ -15,7 +15,8 @@ def bfs(n: int, g:list, s: int) -> list:
             if dist[nxt] != INF: continue
             dist[nxt] = dist[prev] + 1
             q.append(nxt)
-    
+
+
     return dist
 
 def main() -> None:
@@ -23,12 +24,10 @@ def main() -> None:
 
     g = [[] for _ in range(n)]
     for _ in range(n - 1):
-        u, v = map(int, input().split())
-        u -= 1
-        v -= 1
+        u, v = map(lambda x: int(x) - 1, input().split())
         g[u].append(v)
         g[v].append(u)
-    
+
     bfs(0, g)
 
 
