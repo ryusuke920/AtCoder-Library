@@ -6,9 +6,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/yukicoder/1639.test.py
     title: Test/yukicoder/1639.test.py
-  - icon: ':heavy_check_mark:'
-    path: test/yukicoder/1639.test.py
-    title: test/yukicoder/1639.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -42,7 +39,6 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/1639.test.py
-  - test/yukicoder/1639.test.py
 documentation_of: Graph/Kruskal.py
 layout: document
 redirect_from:

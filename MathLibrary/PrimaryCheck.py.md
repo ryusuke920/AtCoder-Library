@@ -6,9 +6,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/AOJ/ALDS1/ALDS1_1_C.test.py
     title: Test/AOJ/ALDS1/ALDS1_1_C.test.py
-  - icon: ':heavy_check_mark:'
-    path: test/AOJ/ALDS1/ALDS1_1_C.test.py
-    title: test/AOJ/ALDS1/ALDS1_1_C.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -29,7 +26,6 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/AOJ/ALDS1/ALDS1_1_C.test.py
-  - test/AOJ/ALDS1/ALDS1_1_C.test.py
 documentation_of: MathLibrary/PrimaryCheck.py
 layout: document
 redirect_from:

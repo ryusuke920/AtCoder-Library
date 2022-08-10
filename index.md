@@ -191,11 +191,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: Tree/UnionFindTree.py
       title: Tree/UnionFindTree.py
-  - name: test/yosupo/DataStructure
-    pages:
-    - icon: ':warning:'
-      path: test/yosupo/DataStructure/AssociativeArray.py
-      title: test/yosupo/DataStructure/AssociativeArray.py
   verificationCategories:
   - name: Test/AOJ/ALDS1
     pages:
@@ -262,70 +257,5 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/847.test.py
       title: Test/yukicoder/847.test.py
-  - name: test/AOJ/ALDS1
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/ALDS1/ALDS1_13_A.test.py
-      title: test/AOJ/ALDS1/ALDS1_13_A.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/ALDS1/ALDS1_1_B.test.py
-      title: test/AOJ/ALDS1/ALDS1_1_B.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/ALDS1/ALDS1_1_C.test.py
-      title: test/AOJ/ALDS1/ALDS1_1_C.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/ALDS1/ALDS1_4_B.test.py
-      title: test/AOJ/ALDS1/ALDS1_4_B.test.py
-  - name: test/AOJ/DSL
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/DSL/DSL_1_A.test.py
-      title: test/AOJ/DSL/DSL_1_A.test.py
-  - name: test/AOJ/GRL
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/GRL/GRL_1_B.test.py
-      title: test/AOJ/GRL/GRL_1_B.test.py
-  - name: test/AOJ/Volume0
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/Volume0/0000.test.py
-      title: test/AOJ/Volume0/0000.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/AOJ/Volume0/0001.test.py
-      title: test/AOJ/Volume0/0001.test.py
-  - name: test/yosupo/DataStructure
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/yosupo/DataStructure/StaticRMQ.test.py
-      title: test/yosupo/DataStructure/StaticRMQ.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/yosupo/DataStructure/Unionfind.test.py
-      title: test/yosupo/DataStructure/Unionfind.test.py
-  - name: test/yosupo/Sample
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/yosupo/Sample/A+B.test.py
-      title: test/yosupo/Sample/A+B.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/yosupo/Sample/ManyA+B.test.py
-      title: test/yosupo/Sample/ManyA+B.test.py
-  - name: test/yukicoder
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: test/yukicoder/1639.test.py
-      title: test/yukicoder/1639.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/yukicoder/1737.test.py
-      title: test/yukicoder/1737.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/yukicoder/182.test.py
-      title: test/yukicoder/182.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/yukicoder/677.test.py
-      title: test/yukicoder/677.test.py
-    - icon: ':heavy_check_mark:'
-      path: test/yukicoder/847.test.py
-      title: test/yukicoder/847.test.py
 layout: toppage
 ---

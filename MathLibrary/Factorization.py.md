@@ -9,12 +9,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/yukicoder/847.test.py
     title: Test/yukicoder/847.test.py
-  - icon: ':heavy_check_mark:'
-    path: test/yukicoder/1737.test.py
-    title: test/yukicoder/1737.test.py
-  - icon: ':heavy_check_mark:'
-    path: test/yukicoder/847.test.py
-    title: test/yukicoder/847.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -39,8 +33,6 @@ data:
   verifiedWith:
   - Test/yukicoder/1737.test.py
   - Test/yukicoder/847.test.py
-  - test/yukicoder/1737.test.py
-  - test/yukicoder/847.test.py
 documentation_of: MathLibrary/Factorization.py
 layout: document
 redirect_from:

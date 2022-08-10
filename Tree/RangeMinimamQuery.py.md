@@ -6,9 +6,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/yosupo/DataStructure/StaticRMQ.test.py
     title: Test/yosupo/DataStructure/StaticRMQ.test.py
-  - icon: ':heavy_check_mark:'
-    path: test/yosupo/DataStructure/StaticRMQ.test.py
-    title: test/yosupo/DataStructure/StaticRMQ.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -48,7 +45,6 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yosupo/DataStructure/StaticRMQ.test.py
-  - test/yosupo/DataStructure/StaticRMQ.test.py
 documentation_of: Tree/RangeMinimamQuery.py
 layout: document
 redirect_from:

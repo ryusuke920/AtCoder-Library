@@ -6,9 +6,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/AOJ/DSL/DSL_1_A.test.py
     title: Test/AOJ/DSL/DSL_1_A.test.py
-  - icon: ':heavy_check_mark:'
-    path: test/AOJ/DSL/DSL_1_A.test.py
-    title: test/AOJ/DSL/DSL_1_A.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -38,7 +35,6 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/AOJ/DSL/DSL_1_A.test.py
-  - test/AOJ/DSL/DSL_1_A.test.py
 documentation_of: Tree/UnionFindTree.py
 layout: document
 redirect_from:
