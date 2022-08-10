@@ -17,5 +17,6 @@ def main():
         elif com == 1:
             print(int(uf.same(x, y)))
 
+
 if __name__ == "__main__":
     main()

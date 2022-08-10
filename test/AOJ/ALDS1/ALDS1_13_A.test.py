@@ -20,6 +20,7 @@ for p in permutations(range(8)):
                 continue
             if abs(p[k] - p[l]) == abs(k - l):
                 flag = False
+
     if flag:
         for i in p:
             ans = ["."] * 8

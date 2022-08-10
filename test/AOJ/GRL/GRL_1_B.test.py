@@ -1,10 +1,7 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_B
 
 import sys
-from pathlib import Path
-
-p = Path(__file__).parts
-sys.path.append('/'.join(p[:p.index('AtCoder-Library') + 1]))
+sys.path.append("../../../")
 
 from Graph import BellmanFord
 from Search import BreadthFirstSearch_graph
