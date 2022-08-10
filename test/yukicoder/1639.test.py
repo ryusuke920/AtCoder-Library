@@ -15,6 +15,6 @@ for _ in range(n * (n - 1) // 2):
     g.append((a, b, c))
 
 Kruskal = Kruskal.Kruskal(n, g)
-ans = Kruskal.cost(g)
+ans = Kruskal.cost()
 
 print(max(ans))

@@ -35,12 +35,12 @@ class Kruskal:
         return -self.p[self.leader(a)]
 
 
-    def cost(self, cost: int) -> list:
+    def cost(self) -> list:
         tree = []
-        for i, j, cost in self.g:
-            if self.same(i, j):
+        for u, v, cost in self.g:
+            if self.same(u, v):
                 continue
-            self.merge(i, j)
+            self.merge(u, v)
             tree.append(cost)
         
         return tree
