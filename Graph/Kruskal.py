@@ -1,13 +1,14 @@
 class Kruskal:
     def __init__(self, n: int, g: list) -> None:
         self.n = n
-        self.g = g
+        self.g = g.sort(key=lambda x: x[2])
         self.p = [-1] * n
 
 
     def leader(self, a: int) -> int:
         while self.p[a] >= 0:
             a = self.p[a]
+
         return a
 
 
@@ -42,7 +43,7 @@ class Kruskal:
                 continue
             self.merge(u, v)
             tree.append(cost)
-        
+
         return tree
 
 
@@ -50,8 +51,8 @@ def main() -> None:
     n, m = map(int, input().split())
     g = [list(map(int, input().split())) for _ in range(m)]
 
-    Kruskal = Kruskal(n, g)
-    print(sum(Kruskal.tree(g)))
+    kruskal = Kruskal(n, g)
+    print(sum(kruskal.tree(g)))
 
 
 if __name__ == "__main__":
