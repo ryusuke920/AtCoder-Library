@@ -15,5 +15,6 @@ def main() -> None:
         elif query[0] == 1:
             print(d[query[1]])
 
+
 if __name__ == "__main__":
     main()
