@@ -6,7 +6,7 @@ sys.path.append("../../../")
 from Graph import BellmanFord
 from Search import BreadthFirstSearch_graph
 
-def main():
+def main() -> None:
     V, E, r = map(int, input().split())
     s, t, d = [0] * E, [0] * E, [0] * E
 

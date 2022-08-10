@@ -10,10 +10,8 @@ n = int(input())
 if n == 1:
     exit(print(0))
 
-fac = Factorization.factorization(n)
-
 ans = 0
-for i, j in fac:
+for i, j in Factorization.factorization(n):
     ans += i * j
 
 print(ans)
