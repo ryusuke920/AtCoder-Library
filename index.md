@@ -158,6 +158,11 @@ data:
     - icon: ':warning:'
       path: Template/VerifyHelperTemplate.py
       title: Template/VerifyHelperTemplate.py
+  - name: Test/AOJ/hoge
+    pages:
+    - icon: ':warning:'
+      path: Test/AOJ/hoge/hoge.py
+      title: Test/AOJ/hoge/hoge.py
   - name: Test/yosupo/DataStructure
     pages:
     - icon: ':warning:'
