@@ -8,7 +8,8 @@ from MathLibrary import Factorization
 n = int(input())
 
 if n == 1:
-    exit(print(0))
+    print(0)
+    exit()
 
 ans = 0
 for i, j in Factorization.factorization(n):
