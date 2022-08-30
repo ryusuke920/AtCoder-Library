@@ -242,6 +242,9 @@ data:
       title: Test/yosupo/Sample/ManyA+B.test.py
   - name: Test/yukicoder
     pages:
+    - icon: ':x:'
+      path: Test/yukicoder/1009.test.py
+      title: Test/yukicoder/1009.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1639.test.py
       title: Test/yukicoder/1639.test.py
@@ -251,6 +254,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/182.test.py
       title: Test/yukicoder/182.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2034.test.py
+      title: Test/yukicoder/2034.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/677.test.py
       title: Test/yukicoder/677.test.py
