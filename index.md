@@ -75,9 +75,6 @@ data:
     - icon: ':warning:'
       path: MathLibrary/ExtGCD.py
       title: MathLibrary/ExtGCD.py
-    - icon: ':heavy_check_mark:'
-      path: MathLibrary/Factorization.py
-      title: MathLibrary/Factorization.py
     - icon: ':warning:'
       path: MathLibrary/FromFloatToInt.py
       title: MathLibrary/FromFloatToInt.py
@@ -111,9 +108,6 @@ data:
     - icon: ':warning:'
       path: MathLibrary/doubling.py
       title: MathLibrary/doubling.py
-    - icon: ':heavy_check_mark:'
-      path: MathLibrary/factorization.py
-      title: MathLibrary/factorization.py
     - icon: ':warning:'
       path: MathLibrary/nCk.py
       title: MathLibrary/nCk.py
