@@ -75,6 +75,9 @@ data:
     - icon: ':warning:'
       path: MathLibrary/ExtGCD.py
       title: MathLibrary/ExtGCD.py
+    - icon: ':heavy_check_mark:'
+      path: MathLibrary/Factorization.py
+      title: MathLibrary/Factorization.py
     - icon: ':warning:'
       path: MathLibrary/FromFloatToInt.py
       title: MathLibrary/FromFloatToInt.py
@@ -248,15 +251,15 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0847.test.py
       title: Test/yukicoder/0847.test.py
-    - icon: ':x:'
-      path: Test/yukicoder/1009.test.py
-      title: Test/yukicoder/1009.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1639.test.py
       title: Test/yukicoder/1639.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1737.test.py
       title: Test/yukicoder/1737.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/1808.test.py
+      title: Test/yukicoder/1808.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/2034.test.py
       title: Test/yukicoder/2034.test.py
