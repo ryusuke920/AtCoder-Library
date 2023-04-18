@@ -111,7 +111,7 @@ data:
     - icon: ':warning:'
       path: MathLibrary/doubling.py
       title: MathLibrary/doubling.py
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: MathLibrary/factorization.py
       title: MathLibrary/factorization.py
     - icon: ':warning:'
@@ -242,6 +242,18 @@ data:
       title: Test/yosupo/Sample/ManyA+B.test.py
   - name: Test/yukicoder
     pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0002.test.py
+      title: Test/yukicoder/0002.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0182.test.py
+      title: Test/yukicoder/0182.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0677.test.py
+      title: Test/yukicoder/0677.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0847.test.py
+      title: Test/yukicoder/0847.test.py
     - icon: ':x:'
       path: Test/yukicoder/1009.test.py
       title: Test/yukicoder/1009.test.py
@@ -252,16 +264,7 @@ data:
       path: Test/yukicoder/1737.test.py
       title: Test/yukicoder/1737.test.py
     - icon: ':heavy_check_mark:'
-      path: Test/yukicoder/182.test.py
-      title: Test/yukicoder/182.test.py
-    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/2034.test.py
       title: Test/yukicoder/2034.test.py
-    - icon: ':heavy_check_mark:'
-      path: Test/yukicoder/677.test.py
-      title: Test/yukicoder/677.test.py
-    - icon: ':heavy_check_mark:'
-      path: Test/yukicoder/847.test.py
-      title: Test/yukicoder/847.test.py
 layout: toppage
 ---
