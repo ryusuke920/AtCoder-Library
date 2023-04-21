@@ -72,6 +72,9 @@ data:
     - icon: ':warning:'
       path: MathLibrary/DigitSum_str.py
       title: MathLibrary/DigitSum_str.py
+    - icon: ':x:'
+      path: MathLibrary/Divisor.py
+      title: MathLibrary/Divisor.py
     - icon: ':warning:'
       path: MathLibrary/ExtGCD.py
       title: MathLibrary/ExtGCD.py
@@ -152,11 +155,6 @@ data:
     - icon: ':warning:'
       path: Template/VerifyHelperTemplate.py
       title: Template/VerifyHelperTemplate.py
-  - name: Test/AOJ/hoge
-    pages:
-    - icon: ':warning:'
-      path: Test/AOJ/hoge/hoge.py
-      title: Test/AOJ/hoge/hoge.py
   - name: Test/yosupo/DataStructure
     pages:
     - icon: ':warning:'
@@ -210,6 +208,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/GRL/GRL_1_B.test.py
       title: Test/AOJ/GRL/GRL_1_B.test.py
+  - name: Test/AOJ/ITP1
+    pages:
+    - icon: ':x:'
+      path: Test/AOJ/ITP1/ITP1_3_D.test.py
+      title: Test/AOJ/ITP1/ITP1_3_D.test.py
   - name: Test/AOJ/Volume0
     pages:
     - icon: ':heavy_check_mark:'

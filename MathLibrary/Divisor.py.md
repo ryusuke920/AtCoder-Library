@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: Test/AOJ/ITP1/ITP1_3_D.test.py
+    title: Test/AOJ/ITP1/ITP1_3_D.test.py
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.3/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -14,18 +17,23 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.3/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: ''
+  code: "def divisors(n):\n    divisor = []\n    for i in range(1, int(n ** 0.5) +\
+    \ 1):\n        if n % i == 0:\n            divisor.append(i)\n            if i\
+    \ != n // i:\n                divisor.append(n // i)\n\n    divisor.sort()\n \
+    \   return divisor\n\nx = divisors(10 ** 12)\ny = divisors(136)\nprint(len(x))\n\
+    print(y)"
   dependsOn: []
   isVerificationFile: false
-  path: Test/AOJ/hoge/hoge.py
+  path: MathLibrary/Divisor.py
   requiredBy: []
-  timestamp: '2022-08-11 01:27:53+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
-documentation_of: Test/AOJ/hoge/hoge.py
+  timestamp: '2023-04-21 18:29:54+09:00'
+  verificationStatus: LIBRARY_ALL_WA
+  verifiedWith:
+  - Test/AOJ/ITP1/ITP1_3_D.test.py
+documentation_of: MathLibrary/Divisor.py
 layout: document
 redirect_from:
-- /library/Test/AOJ/hoge/hoge.py
-- /library/Test/AOJ/hoge/hoge.py.html
-title: Test/AOJ/hoge/hoge.py
+- /library/MathLibrary/Divisor.py
+- /library/MathLibrary/Divisor.py.html
+title: MathLibrary/Divisor.py
 ---
