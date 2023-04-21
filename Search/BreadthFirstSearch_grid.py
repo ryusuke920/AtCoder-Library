@@ -1,15 +1,7 @@
 from collections import deque
 
-def bfs(sy: int, sx: int) -> list:
+def bfs(sy: int, sx: int, dist: list) -> list:
     INF = float('inf')
-    dist = [[INF] * w for _ in range(h)]
-    dist[sy][sx] = 0
-    
-    for i in range(h):
-        for j in range(w):
-            if grid[i][j] == '#':
-                dist[i][j] = -1
-    
     d = ((0, 1), (0, -1), (1, 0), (-1, 0))
     q = deque()
     q.append((sy, sx))
