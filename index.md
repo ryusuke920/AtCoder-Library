@@ -249,6 +249,9 @@ data:
       path: Test/yukicoder/0677.test.py
       title: Test/yukicoder/0677.test.py
     - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0697.test.py
+      title: Test/yukicoder/0697.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0847.test.py
       title: Test/yukicoder/0847.test.py
     - icon: ':heavy_check_mark:'
