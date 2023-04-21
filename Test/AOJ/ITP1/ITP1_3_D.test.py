@@ -1,7 +1,7 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_3_D
 
 import sys
-sys.path.append("../../")
+sys.path.append("../../../")
 
 from MathLibrary import Divisor
 
