@@ -106,9 +106,6 @@ data:
       path: MathLibrary/XorToN.py
       title: MathLibrary/XorToN.py
     - icon: ':warning:'
-      path: MathLibrary/divisor.py
-      title: MathLibrary/divisor.py
-    - icon: ':warning:'
       path: MathLibrary/doubling.py
       title: MathLibrary/doubling.py
     - icon: ':warning:'
