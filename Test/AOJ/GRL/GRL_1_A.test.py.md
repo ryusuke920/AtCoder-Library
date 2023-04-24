@@ -7,31 +7,33 @@ data:
   _pathExtension: py
   _verificationStatusIcon: ':x:'
   attributes:
-    PROBLEM: https://yukicoder.me/problems/no/2034
+    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A
     links:
-    - https://yukicoder.me/problems/no/2034
+    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.3/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.3/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# verification-helper: PROBLEM https://yukicoder.me/problems/no/2034\n\n\
-    from collections import defaultdict\n\nn = int(input())\ns = input()\n\nd = defaultdict(int)\n\
-    rev_d = defaultdict(int)\nfor i, j in enumerate(\"abcdefghijklmnopqrstuvwxyz\"\
-    ):\n    d[j] = i\n    rev_d[i] = j\n\nans = []\nfor i in s:\n    ans.append(rev_d[26\
-    \ - d[i] - 1])\n\nprint(*ans, sep='')"
+  code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A\n\
+    \nimport sys\nsys.path.append(\"../../../\")\n\nfrom Graph import Dijkstra\n\n\
+    \ndef main():\n    V, E, r = map(int, input().split())\n    g = [[] for _ in range(V)]\n\
+    \    INF = 10**18\n    for _ in range(E):\n        s, t, d = map(int, input().split())\n\
+    \        g[s].append((t, d))\n\n    dist = Dijkstra.dijkstra(r, g)\n    for i\
+    \ in range(V):\n        print(dist[i]) if dist[i] != INF else print(\"INF\")\n\
+    \n\nif __name__ == \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: true
-  path: Test/yukicoder/2034.test.py
+  path: Test/AOJ/GRL/GRL_1_A.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2023-04-24 15:04:25+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
-documentation_of: Test/yukicoder/2034.test.py
+documentation_of: Test/AOJ/GRL/GRL_1_A.test.py
 layout: document
 redirect_from:
-- /verify/Test/yukicoder/2034.test.py
-- /verify/Test/yukicoder/2034.test.py.html
-title: Test/yukicoder/2034.test.py
+- /verify/Test/AOJ/GRL/GRL_1_A.test.py
+- /verify/Test/AOJ/GRL/GRL_1_A.test.py.html
+title: Test/AOJ/GRL/GRL_1_A.test.py
 ---

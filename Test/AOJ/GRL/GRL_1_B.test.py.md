@@ -28,7 +28,7 @@ data:
     \n    ans = BellmanFord.bellman_ford(V, g, r)\n    if ans == -1:\n        print('NEGATIVE\
     \ CYCLE')\n    else:\n        for i in range(V):\n            if ans[i] == float('inf'):\n\
     \                print('INF')\n            else:\n                print(ans[i])\n\
-    \n\nif __name__ == \"__main__\":\n    main()\n"
+    \n\nif __name__ == \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: true
   path: Test/AOJ/GRL/GRL_1_B.test.py

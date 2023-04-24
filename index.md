@@ -205,6 +205,9 @@ data:
       title: Test/AOJ/DSL/DSL_1_A.test.py
   - name: Test/AOJ/GRL
     pages:
+    - icon: ':x:'
+      path: Test/AOJ/GRL/GRL_1_A.test.py
+      title: Test/AOJ/GRL/GRL_1_A.test.py
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/GRL/GRL_1_B.test.py
       title: Test/AOJ/GRL/GRL_1_B.test.py
@@ -263,7 +266,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1808.test.py
       title: Test/yukicoder/1808.test.py
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: Test/yukicoder/2034.test.py
       title: Test/yukicoder/2034.test.py
 layout: toppage
