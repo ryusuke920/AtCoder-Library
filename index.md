@@ -32,6 +32,9 @@ data:
       path: Graph/BellmanFord.py
       title: Graph/BellmanFord.py
     - icon: ':warning:'
+      path: Graph/Dijkstra.py
+      title: Graph/Dijkstra.py
+    - icon: ':warning:'
       path: Graph/EulerTour.py
       title: Graph/EulerTour.py
     - icon: ':heavy_check_mark:'
@@ -49,9 +52,6 @@ data:
     - icon: ':warning:'
       path: Graph/TopologicalSort.py
       title: Graph/TopologicalSort.py
-    - icon: ':warning:'
-      path: Graph/dijkstra.py
-      title: Graph/dijkstra.py
     - icon: ':warning:'
       path: Graph/warshall_floyd.py
       title: Graph/warshall_floyd.py
@@ -205,7 +205,7 @@ data:
       title: Test/AOJ/DSL/DSL_1_A.test.py
   - name: Test/AOJ/GRL
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/GRL/GRL_1_A.test.py
       title: Test/AOJ/GRL/GRL_1_A.test.py
     - icon: ':heavy_check_mark:'
@@ -266,7 +266,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1808.test.py
       title: Test/yukicoder/1808.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/2034.test.py
       title: Test/yukicoder/2034.test.py
 layout: toppage

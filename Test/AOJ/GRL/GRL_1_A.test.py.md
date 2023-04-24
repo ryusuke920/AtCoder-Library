@@ -3,9 +3,9 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_A
     links:
@@ -27,8 +27,8 @@ data:
   isVerificationFile: true
   path: Test/AOJ/GRL/GRL_1_A.test.py
   requiredBy: []
-  timestamp: '2023-04-24 15:04:25+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Test/AOJ/GRL/GRL_1_A.test.py
 layout: document

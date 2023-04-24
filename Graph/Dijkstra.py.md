@@ -25,15 +25,15 @@ data:
     \ cost))\n\n    d = dijkstra(0, g)\n\n\nif __name__ == \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: false
-  path: Graph/dijkstra.py
+  path: Graph/Dijkstra.py
   requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: Graph/dijkstra.py
+documentation_of: Graph/Dijkstra.py
 layout: document
 redirect_from:
-- /library/Graph/dijkstra.py
-- /library/Graph/dijkstra.py.html
-title: Graph/dijkstra.py
+- /library/Graph/Dijkstra.py
+- /library/Graph/Dijkstra.py.html
+title: Graph/Dijkstra.py
 ---
