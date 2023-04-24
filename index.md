@@ -72,7 +72,7 @@ data:
     - icon: ':warning:'
       path: MathLibrary/DigitSum_str.py
       title: MathLibrary/DigitSum_str.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: MathLibrary/Divisor.py
       title: MathLibrary/Divisor.py
     - icon: ':warning:'
@@ -210,7 +210,7 @@ data:
       title: Test/AOJ/GRL/GRL_1_B.test.py
   - name: Test/AOJ/ITP1
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/ITP1/ITP1_3_D.test.py
       title: Test/AOJ/ITP1/ITP1_3_D.test.py
   - name: Test/AOJ/Volume0

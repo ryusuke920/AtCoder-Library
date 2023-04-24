@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: MathLibrary/Divisor.py
     title: MathLibrary/Divisor.py
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_3_D
     links:
@@ -29,8 +29,8 @@ data:
   isVerificationFile: true
   path: Test/AOJ/ITP1/ITP1_3_D.test.py
   requiredBy: []
-  timestamp: '2023-04-21 18:41:50+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2023-04-24 10:12:14+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Test/AOJ/ITP1/ITP1_3_D.test.py
 layout: document

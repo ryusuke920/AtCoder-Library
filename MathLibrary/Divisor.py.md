@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/AOJ/ITP1/ITP1_3_D.test.py
     title: Test/AOJ/ITP1/ITP1_3_D.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.3/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -17,17 +17,16 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.3/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def divisors(n):\n    divisor = []\n    for i in range(1, int(n ** 0.5) +\
-    \ 1):\n        if n % i == 0:\n            divisor.append(i)\n            if i\
-    \ != n // i:\n                divisor.append(n // i)\n\n    divisor.sort()\n \
-    \   return divisor\n\nx = divisors(10 ** 12)\ny = divisors(136)\nprint(len(x))\n\
-    print(y)"
+  code: "def divisors(n: int) -> list:\n    divisor = []\n    for i in range(1, int(n**0.5)\
+    \ + 1):\n        if n % i == 0:\n            divisor.append(i)\n            if\
+    \ i != n // i:\n                divisor.append(n // i)\n\n    divisor.sort()\n\
+    \    return divisor"
   dependsOn: []
   isVerificationFile: false
   path: MathLibrary/Divisor.py
   requiredBy: []
-  timestamp: '2023-04-21 18:29:54+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2023-04-24 10:12:14+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/AOJ/ITP1/ITP1_3_D.test.py
 documentation_of: MathLibrary/Divisor.py
