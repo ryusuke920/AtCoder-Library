@@ -3,11 +3,11 @@
 import sys
 sys.path.append("../../")
 
-from Math import factorization
+from Math import Factorization
 
 def main() -> None:
     n = int(input())
-    a = factorization.factorization(n)
+    a = Factorization.factorization(n)
 
     or_ = 0
     for i in range(len(a)):

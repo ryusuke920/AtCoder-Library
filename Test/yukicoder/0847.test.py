@@ -3,7 +3,7 @@
 import sys
 sys.path.append("../../")
 
-from Math import factorization
+from Math import Factorization
 
 def dfs(a: list, now: int):
     
@@ -25,7 +25,7 @@ def dfs(a: list, now: int):
 
 n, k, m = map(int, input().split())
 
-fac = factorization.factorization(n)
+fac = Factorization.factorization(n)
 l = len(fac)
 
 for i in range(l):
