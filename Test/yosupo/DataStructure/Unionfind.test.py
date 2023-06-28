@@ -1,8 +1,6 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/unionfind
 
 import sys
-from pathlib import Path
-
 sys.path.append("../../../")
 
 from Tree import UnionFindTree

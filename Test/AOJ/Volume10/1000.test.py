@@ -2,11 +2,12 @@
 
 
 def main():
-    try:
-        a, b = map(int, input().split())
-        print(a + b)
-    except:
-        exit()
+    while True:
+        try:
+            a, b = map(int, input().split())
+            print(a + b)
+        except:
+            break
 
 
 if __name__ == "__main__":

@@ -21,10 +21,16 @@ def combination(n: int, k: int) -> int:
 
     return fac[n] * fac_inv[k] * fac_inv[n - k] % mod
 
-n, k = map(int, input().split())
+def main() -> None:
 
-mod = 10 ** 9 + 7
-fac, fac_inv = calc_facinv(n)
+    n, k = map(int, input().split())
 
-ans = combination(n, k)
-print(ans)
+    mod = 10 ** 9 + 7
+    fac, fac_inv = calc_facinv(n)
+
+    ans = combination(n, k)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()

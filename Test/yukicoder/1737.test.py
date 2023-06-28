@@ -3,7 +3,7 @@
 import sys
 sys.path.append("../../")
 
-from MathLibrary import Factorization
+from Math import Factorization
 
 n = int(input())
 

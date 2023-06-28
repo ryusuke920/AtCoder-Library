@@ -3,7 +3,7 @@
 import sys
 sys.path.append("../../../")
 
-from MathLibrary import Divisor
+from Math import Divisor
 
 def main() -> None:
     a, b, c = map(int, input().split())
