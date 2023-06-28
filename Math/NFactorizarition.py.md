@@ -30,15 +30,15 @@ data:
     )\nfor i in range(len(num)):\n    print(i, num[i])"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/NFactorizarition.py
+  path: Math/NFactorizarition.py
   requiredBy: []
-  timestamp: '2021-11-14 03:41:48+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/NFactorizarition.py
+documentation_of: Math/NFactorizarition.py
 layout: document
 redirect_from:
-- /library/MathLibrary/NFactorizarition.py
-- /library/MathLibrary/NFactorizarition.py.html
-title: MathLibrary/NFactorizarition.py
+- /library/Math/NFactorizarition.py
+- /library/Math/NFactorizarition.py.html
+title: Math/NFactorizarition.py
 ---

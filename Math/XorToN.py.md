@@ -14,23 +14,21 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def primes(n: int) -> list:\n    \"\u7D20\u6570\u306E\u5217\u6319\u3092\u884C\
-    \u3046\"\n\n    is_prime = [True] * (n + 1)\n    is_prime[0] = False\n    is_prime[1]\
-    \ = False\n\n    for i in range(2, int(n ** 0.5) + 1):\n        if not is_prime[i]:\n\
-    \            continue\n        for j in range(i * 2, n + 1, i):\n            is_prime[j]\
-    \ = False\n\n    return [i for i, j in enumerate(is_prime) if j]\n\nx = primes(100)\
-    \ # \u7D20\u6570\u306E\u5168\u5217\u6319\nprint(len(x), x)"
+  code: "def XorToN(N: int) -> int:\n    \"0 \u301C N \u307E\u3067\u306E XOR \u306E\
+    \u5024\u3092\u8FD4\u3059\u95A2\u6570\"\n    \n    if N % 4 == 0:\n        return\
+    \ N\n    \n    if N % 4 == 1:\n        return 1\n    \n    if N % 4 == 2:\n  \
+    \      return N + 1\n    \n    if N % 4 == 3:\n        return 0\n\nprint(XorToN(196))"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/SieveOfEratosthenes.py
+  path: Math/XorToN.py
   requiredBy: []
-  timestamp: '2022-05-30 00:24:56+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/SieveOfEratosthenes.py
+documentation_of: Math/XorToN.py
 layout: document
 redirect_from:
-- /library/MathLibrary/SieveOfEratosthenes.py
-- /library/MathLibrary/SieveOfEratosthenes.py.html
-title: MathLibrary/SieveOfEratosthenes.py
+- /library/Math/XorToN.py
+- /library/Math/XorToN.py.html
+title: Math/XorToN.py
 ---

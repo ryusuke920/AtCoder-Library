@@ -37,15 +37,15 @@ data:
     \ sep=\"\\n\")\nprint(\"\u5206\u6BCD\")\nprint(*y, sep=\"\\n\")"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/nCkFactorization.py
+  path: Math/nCkFactorization.py
   requiredBy: []
-  timestamp: '2021-11-14 03:32:35+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/nCkFactorization.py
+documentation_of: Math/nCkFactorization.py
 layout: document
 redirect_from:
-- /library/MathLibrary/nCkFactorization.py
-- /library/MathLibrary/nCkFactorization.py.html
-title: MathLibrary/nCkFactorization.py
+- /library/Math/nCkFactorization.py
+- /library/Math/nCkFactorization.py.html
+title: Math/nCkFactorization.py
 ---

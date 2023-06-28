@@ -14,21 +14,20 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# \u914D\u5217\u306E\u7D2F\u7A4D\u548C\u3092\u6C42\u3081\u308B\ndef CumulativeSum(num_array):\n\
-    \    for i in range(len(num_array) - 1):\n        num_array[i + 1] += num_array[i]\n\
-    \    return num_array\n\n\na = [1, 4, -1, 9, 34, 21, -12, 31]\nans = CumulativeSum(a)\n\
-    print(ans)"
+  code: "def PrimaryCheck(x: int) -> bool:\n    if x == 1:\n        return False\n\
+    \n    for i in range(2, int(x ** 0.5) + 1):\n        if x % i == 0:\n        \
+    \    return False\n\n    return True"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/CumulativeSum.py
+  path: Math/PrimaryCheck.py
   requiredBy: []
-  timestamp: '2021-02-08 02:18:34+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/CumulativeSum.py
+documentation_of: Math/PrimaryCheck.py
 layout: document
 redirect_from:
-- /library/MathLibrary/CumulativeSum.py
-- /library/MathLibrary/CumulativeSum.py.html
-title: MathLibrary/CumulativeSum.py
+- /library/Math/PrimaryCheck.py
+- /library/Math/PrimaryCheck.py.html
+title: Math/PrimaryCheck.py
 ---

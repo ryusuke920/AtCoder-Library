@@ -38,15 +38,15 @@ data:
     \ for _ in range(h)]\nans = manhattan_distance(grid, k)\nprint(ans)"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/ManhattanDistanceSearch.py
+  path: Math/ManhattanDistanceSearch.py
   requiredBy: []
-  timestamp: '2021-08-09 18:37:53+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/ManhattanDistanceSearch.py
+documentation_of: Math/ManhattanDistanceSearch.py
 layout: document
 redirect_from:
-- /library/MathLibrary/ManhattanDistanceSearch.py
-- /library/MathLibrary/ManhattanDistanceSearch.py.html
-title: MathLibrary/ManhattanDistanceSearch.py
+- /library/Math/ManhattanDistanceSearch.py
+- /library/Math/ManhattanDistanceSearch.py.html
+title: Math/ManhattanDistanceSearch.py
 ---

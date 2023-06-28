@@ -81,15 +81,15 @@ data:
     \            ans += len(a)\n\n        return ans"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/SortedMultiset.py
+  path: Math/SortedMultiset.py
   requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/SortedMultiset.py
+documentation_of: Math/SortedMultiset.py
 layout: document
 redirect_from:
-- /library/MathLibrary/SortedMultiset.py
-- /library/MathLibrary/SortedMultiset.py.html
-title: MathLibrary/SortedMultiset.py
+- /library/Math/SortedMultiset.py
+- /library/Math/SortedMultiset.py.html
+title: Math/SortedMultiset.py
 ---

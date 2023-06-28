@@ -55,68 +55,71 @@ data:
     - icon: ':warning:'
       path: Graph/warshall_floyd.py
       title: Graph/warshall_floyd.py
-  - name: MathLibrary
+  - name: Math
     pages:
     - icon: ':warning:'
-      path: MathLibrary/BinaryToDecimal.py
-      title: MathLibrary/BinaryToDecimal.py
+      path: Math/BinaryToDecimal.py
+      title: Math/BinaryToDecimal.py
     - icon: ':warning:'
-      path: MathLibrary/CumulativeSum.py
-      title: MathLibrary/CumulativeSum.py
+      path: Math/CumulativeSum.py
+      title: Math/CumulativeSum.py
     - icon: ':warning:'
-      path: MathLibrary/DecimalToBinary.py
-      title: MathLibrary/DecimalToBinary.py
-    - icon: ':warning:'
-      path: MathLibrary/DigitSum_int.py
-      title: MathLibrary/DigitSum_int.py
-    - icon: ':warning:'
-      path: MathLibrary/DigitSum_str.py
-      title: MathLibrary/DigitSum_str.py
+      path: Math/DecimalToBinary.py
+      title: Math/DecimalToBinary.py
     - icon: ':heavy_check_mark:'
-      path: MathLibrary/Divisor.py
-      title: MathLibrary/Divisor.py
+      path: Math/Dice.py
+      title: Math/Dice.py
     - icon: ':warning:'
-      path: MathLibrary/ExtGCD.py
-      title: MathLibrary/ExtGCD.py
+      path: Math/DigitSum_int.py
+      title: Math/DigitSum_int.py
+    - icon: ':warning:'
+      path: Math/DigitSum_str.py
+      title: Math/DigitSum_str.py
     - icon: ':heavy_check_mark:'
-      path: MathLibrary/Factorization.py
-      title: MathLibrary/Factorization.py
+      path: Math/Divisor.py
+      title: Math/Divisor.py
     - icon: ':warning:'
-      path: MathLibrary/FromFloatToInt.py
-      title: MathLibrary/FromFloatToInt.py
-    - icon: ':warning:'
-      path: MathLibrary/ManhattanDistanceSearch.py
-      title: MathLibrary/ManhattanDistanceSearch.py
-    - icon: ':warning:'
-      path: MathLibrary/MaxCumulativeSum.py
-      title: MathLibrary/MaxCumulativeSum.py
-    - icon: ':warning:'
-      path: MathLibrary/NFactorizarition.py
-      title: MathLibrary/NFactorizarition.py
+      path: Math/ExtGCD.py
+      title: Math/ExtGCD.py
     - icon: ':heavy_check_mark:'
-      path: MathLibrary/PrimaryCheck.py
-      title: MathLibrary/PrimaryCheck.py
+      path: Math/Factorization.py
+      title: Math/Factorization.py
     - icon: ':warning:'
-      path: MathLibrary/SieveOfEratosthenes.py
-      title: MathLibrary/SieveOfEratosthenes.py
+      path: Math/FromFloatToInt.py
+      title: Math/FromFloatToInt.py
     - icon: ':warning:'
-      path: MathLibrary/SortedMultiset.py
-      title: MathLibrary/SortedMultiset.py
+      path: Math/ManhattanDistanceSearch.py
+      title: Math/ManhattanDistanceSearch.py
     - icon: ':warning:'
-      path: MathLibrary/SortedSet.py
-      title: MathLibrary/SortedSet.py
+      path: Math/MaxCumulativeSum.py
+      title: Math/MaxCumulativeSum.py
     - icon: ':warning:'
-      path: MathLibrary/XorToN.py
-      title: MathLibrary/XorToN.py
+      path: Math/NFactorizarition.py
+      title: Math/NFactorizarition.py
     - icon: ':warning:'
-      path: MathLibrary/doubling.py
-      title: MathLibrary/doubling.py
+      path: Math/PrimaryCheck.py
+      title: Math/PrimaryCheck.py
     - icon: ':warning:'
-      path: MathLibrary/nCk.py
-      title: MathLibrary/nCk.py
+      path: Math/SieveOfEratosthenes.py
+      title: Math/SieveOfEratosthenes.py
     - icon: ':warning:'
-      path: MathLibrary/nCkFactorization.py
-      title: MathLibrary/nCkFactorization.py
+      path: Math/SortedMultiset.py
+      title: Math/SortedMultiset.py
+    - icon: ':warning:'
+      path: Math/SortedSet.py
+      title: Math/SortedSet.py
+    - icon: ':warning:'
+      path: Math/XorToN.py
+      title: Math/XorToN.py
+    - icon: ':warning:'
+      path: Math/doubling.py
+      title: Math/doubling.py
+    - icon: ':warning:'
+      path: Math/nCk.py
+      title: Math/nCk.py
+    - icon: ':warning:'
+      path: Math/nCkFactorization.py
+      title: Math/nCkFactorization.py
   - name: Other
     pages:
     - icon: ':warning:'
@@ -214,6 +217,21 @@ data:
   - name: Test/AOJ/ITP1
     pages:
     - icon: ':heavy_check_mark:'
+      path: Test/AOJ/ITP1/ITP1_11_A.test.py
+      title: Test/AOJ/ITP1/ITP1_11_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/ITP1/ITP1_11_B.test.py
+      title: Test/AOJ/ITP1/ITP1_11_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/ITP1/ITP1_11_C.test.py
+      title: Test/AOJ/ITP1/ITP1_11_C.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/ITP1/ITP1_11_D.test.py
+      title: Test/AOJ/ITP1/ITP1_11_D.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/ITP1/ITP1_2_A.test.py
+      title: Test/AOJ/ITP1/ITP1_2_A.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/ITP1/ITP1_3_D.test.py
       title: Test/AOJ/ITP1/ITP1_3_D.test.py
   - name: Test/AOJ/Volume0
@@ -226,9 +244,14 @@ data:
       title: Test/AOJ/Volume0/0001.test.py
   - name: Test/AOJ/Volume10
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume10/1000.test.py
       title: Test/AOJ/Volume10/1000.test.py
+  - name: Test/AOJ/Volume16
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume16/1640.test.py
+      title: Test/AOJ/Volume16/1640.test.py
   - name: Test/yosupo/DataStructure
     pages:
     - icon: ':heavy_check_mark:'
@@ -247,7 +270,7 @@ data:
       title: Test/yosupo/Sample/ManyA+B.test.py
   - name: Test/yukicoder
     pages:
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: Test/yukicoder/0002.test.py
       title: Test/yukicoder/0002.test.py
     - icon: ':heavy_check_mark:'
@@ -259,7 +282,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0697.test.py
       title: Test/yukicoder/0697.test.py
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: Test/yukicoder/0847.test.py
       title: Test/yukicoder/0847.test.py
     - icon: ':heavy_check_mark:'

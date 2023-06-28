@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/AOJ/DSL/DSL_1_A.test.py
     title: Test/AOJ/DSL/DSL_1_A.test.py
+  - icon: ':heavy_check_mark:'
+    path: Test/yosupo/DataStructure/Unionfind.test.py
+    title: Test/yosupo/DataStructure/Unionfind.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -36,6 +39,7 @@ data:
   timestamp: '2022-07-15 00:14:10+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - Test/yosupo/DataStructure/Unionfind.test.py
   - Test/AOJ/DSL/DSL_1_A.test.py
 documentation_of: Tree/UnionFindTree.py
 layout: document

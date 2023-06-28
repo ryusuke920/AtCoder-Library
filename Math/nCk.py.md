@@ -22,19 +22,21 @@ data:
     \    fac_inv[0] = 1\n    for i in range(1, n + 1):\n        fac_inv[i] = pow(fac[i],\
     \ mod - 2, mod)\n    \n    return fac, fac_inv\n\ndef combination(n: int, k: int)\
     \ -> int:\n    '''nCk\u3092\u8A08\u7B97\u3059\u308B'''\n\n    return fac[n] *\
-    \ fac_inv[k] * fac_inv[n - k] % mod\n\nn, k = map(int, input().split())\n\nmod\
-    \ = 10 ** 9 + 7\nfac, fac_inv = calc_facinv(n)\n\nans = combination(n, k)\nprint(ans)"
+    \ fac_inv[k] * fac_inv[n - k] % mod\n\ndef main() -> None:\n\n    n, k = map(int,\
+    \ input().split())\n\n    mod = 10 ** 9 + 7\n    fac, fac_inv = calc_facinv(n)\n\
+    \n    ans = combination(n, k)\n    print(ans)\n\n\nif __name__ == \"__main__\"\
+    :\n    main()"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/nCk.py
+  path: Math/nCk.py
   requiredBy: []
-  timestamp: '2022-02-06 18:10:37+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/nCk.py
+documentation_of: Math/nCk.py
 layout: document
 redirect_from:
-- /library/MathLibrary/nCk.py
-- /library/MathLibrary/nCk.py.html
-title: MathLibrary/nCk.py
+- /library/Math/nCk.py
+- /library/Math/nCk.py.html
+title: Math/nCk.py
 ---

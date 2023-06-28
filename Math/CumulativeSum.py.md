@@ -14,21 +14,21 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# 10\u9032\u6570 -> 2\u9032\u6570\u3078\u306E\u5909\u63DB\ndef DeciamlToBinary(num):\n\
-    \    binary_number = \"\"\n    while num > 0:\n        binary_number += str(num\
-    \ % 2)\n        num //= 2\n    return int(binary_number[::-1])\n\nn = 1234567890\n\
-    ans = DeciamlToBinary(n)\nprint(ans)"
+  code: "# \u914D\u5217\u306E\u7D2F\u7A4D\u548C\u3092\u6C42\u3081\u308B\ndef CumulativeSum(num_array):\n\
+    \    for i in range(len(num_array) - 1):\n        num_array[i + 1] += num_array[i]\n\
+    \    return num_array\n\n\na = [1, 4, -1, 9, 34, 21, -12, 31]\nans = CumulativeSum(a)\n\
+    print(ans)"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/DecimalToBinary.py
+  path: Math/CumulativeSum.py
   requiredBy: []
-  timestamp: '2021-02-08 02:18:34+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/DecimalToBinary.py
+documentation_of: Math/CumulativeSum.py
 layout: document
 redirect_from:
-- /library/MathLibrary/DecimalToBinary.py
-- /library/MathLibrary/DecimalToBinary.py.html
-title: MathLibrary/DecimalToBinary.py
+- /library/Math/CumulativeSum.py
+- /library/Math/CumulativeSum.py.html
+title: Math/CumulativeSum.py
 ---

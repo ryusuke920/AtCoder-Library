@@ -28,15 +28,15 @@ data:
     \u30FB\u533A\u9593\u5E45\nprint(ans)"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/MaxCumulativeSum.py
+  path: Math/MaxCumulativeSum.py
   requiredBy: []
-  timestamp: '2021-02-08 02:18:34+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/MaxCumulativeSum.py
+documentation_of: Math/MaxCumulativeSum.py
 layout: document
 redirect_from:
-- /library/MathLibrary/MaxCumulativeSum.py
-- /library/MathLibrary/MaxCumulativeSum.py.html
-title: MathLibrary/MaxCumulativeSum.py
+- /library/Math/MaxCumulativeSum.py
+- /library/Math/MaxCumulativeSum.py.html
+title: Math/MaxCumulativeSum.py
 ---

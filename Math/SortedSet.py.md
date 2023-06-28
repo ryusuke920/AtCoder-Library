@@ -87,15 +87,15 @@ data:
     \        return ans"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/SortedSet.py
+  path: Math/SortedSet.py
   requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/SortedSet.py
+documentation_of: Math/SortedSet.py
 layout: document
 redirect_from:
-- /library/MathLibrary/SortedSet.py
-- /library/MathLibrary/SortedSet.py.html
-title: MathLibrary/SortedSet.py
+- /library/Math/SortedSet.py
+- /library/Math/SortedSet.py.html
+title: Math/SortedSet.py
 ---

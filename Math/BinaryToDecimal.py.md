@@ -2,13 +2,10 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
-    path: Test/AOJ/ITP1/ITP1_3_D.test.py
-    title: Test/AOJ/ITP1/ITP1_3_D.test.py
+  _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -17,22 +14,21 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def divisors(n: int) -> list:\n    divisor = []\n    for i in range(1, int(n**0.5)\
-    \ + 1):\n        if n % i == 0:\n            divisor.append(i)\n            if\
-    \ i != n // i:\n                divisor.append(n // i)\n\n    divisor.sort()\n\
-    \    return divisor"
+  code: "# \uFF12\u9032\u6570 -> 10\u9032\u6570\u3078\u306E\u5909\u63DB\ndef BinaryToDecimal(num):\n\
+    \    num = str(num)[::-1]\n    decimal_number = 0\n    for i in range(len(num)):\n\
+    \        decimal_number += int(num[i]) * (2 ** i)\n    return decimal_number\n\
+    \nn = 101001001111101011\nans = BinaryToDecimal(n)\nprint(ans)"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/Divisor.py
+  path: Math/BinaryToDecimal.py
   requiredBy: []
-  timestamp: '2023-04-24 10:12:14+09:00'
-  verificationStatus: LIBRARY_ALL_AC
-  verifiedWith:
-  - Test/AOJ/ITP1/ITP1_3_D.test.py
-documentation_of: MathLibrary/Divisor.py
+  timestamp: '2023-06-29 00:35:03+09:00'
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
+documentation_of: Math/BinaryToDecimal.py
 layout: document
 redirect_from:
-- /library/MathLibrary/Divisor.py
-- /library/MathLibrary/Divisor.py.html
-title: MathLibrary/Divisor.py
+- /library/Math/BinaryToDecimal.py
+- /library/Math/BinaryToDecimal.py.html
+title: Math/BinaryToDecimal.py
 ---

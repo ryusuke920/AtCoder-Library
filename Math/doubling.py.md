@@ -39,15 +39,15 @@ data:
     \u7E70\u308A\u8FD4\u3057\u305F\u5148\nprint(dub.get(n, k))"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/doubling.py
+  path: Math/doubling.py
   requiredBy: []
-  timestamp: '2022-02-06 18:58:27+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/doubling.py
+documentation_of: Math/doubling.py
 layout: document
 redirect_from:
-- /library/MathLibrary/doubling.py
-- /library/MathLibrary/doubling.py.html
-title: MathLibrary/doubling.py
+- /library/Math/doubling.py
+- /library/Math/doubling.py.html
+title: Math/doubling.py
 ---

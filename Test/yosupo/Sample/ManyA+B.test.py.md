@@ -18,13 +18,13 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM https://judge.yosupo.jp/problem/many_aplusb\n\
     \ndef main() -> None:\n\n    T = int(input())\n\n    for _ in range(T):\n    \
-    \    A, B = map(int, input().split())\n        print(A + B)\n\nif __name__ ==\
+    \    A, B = map(int, input().split())\n        print(A + B)\n\n\nif __name__ ==\
     \ \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: true
   path: Test/yosupo/Sample/ManyA+B.test.py
   requiredBy: []
-  timestamp: '2022-08-11 00:02:49+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Test/yosupo/Sample/ManyA+B.test.py

@@ -14,21 +14,20 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# \uFF12\u9032\u6570 -> 10\u9032\u6570\u3078\u306E\u5909\u63DB\ndef BinaryToDecimal(num):\n\
-    \    num = str(num)[::-1]\n    decimal_number = 0\n    for i in range(len(num)):\n\
-    \        decimal_number += int(num[i]) * (2 ** i)\n    return decimal_number\n\
-    \nn = 101001001111101011\nans = BinaryToDecimal(n)\nprint(ans)"
+  code: "def FloatToInt(FLOAT):\n    return int(FLOAT.replace(\".\", \"\")), len(FLOAT)\
+    \ - FLOAT.index(\".\") - 1 # tuple \u3067return\n\nn = \"314.1592653589\" # \u958B\
+    \u59CB\u306Fstr\u3067\u6E21\u3059\nx, y = FloatToInt(n)\nprint(x, y)"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/BinaryToDecimal.py
+  path: Math/FromFloatToInt.py
   requiredBy: []
-  timestamp: '2021-02-14 03:53:12+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/BinaryToDecimal.py
+documentation_of: Math/FromFloatToInt.py
 layout: document
 redirect_from:
-- /library/MathLibrary/BinaryToDecimal.py
-- /library/MathLibrary/BinaryToDecimal.py.html
-title: MathLibrary/BinaryToDecimal.py
+- /library/Math/FromFloatToInt.py
+- /library/Math/FromFloatToInt.py.html
+title: Math/FromFloatToInt.py
 ---

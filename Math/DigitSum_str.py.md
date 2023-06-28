@@ -14,20 +14,20 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def DigitSum(num: int) -> int:\n    '''int \u578B\u306E\u6841\u548C\u3092\
-    \u6C42\u3081\u308B'''\n    digit_sum = 0\n\n    while num > 0:\n        digit_sum\
-    \ += num % 10\n        num //= 10\n\n    return digit_sum\n\nprint(DigitSum(1234567890))"
+  code: "def DigitSum(num: str) -> int:\n    '''str \u578B\u306E\u6841\u548C\u3092\
+    \u6C42\u3081\u308B'''\n    return sum([int(num[i]) for i in range(len(num))])\n\
+    \nprint(DigitSum('1234567890'))"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/DigitSum_int.py
+  path: Math/DigitSum_str.py
   requiredBy: []
-  timestamp: '2022-05-30 00:19:38+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/DigitSum_int.py
+documentation_of: Math/DigitSum_str.py
 layout: document
 redirect_from:
-- /library/MathLibrary/DigitSum_int.py
-- /library/MathLibrary/DigitSum_int.py.html
-title: MathLibrary/DigitSum_int.py
+- /library/Math/DigitSum_str.py
+- /library/Math/DigitSum_str.py.html
+title: Math/DigitSum_str.py
 ---

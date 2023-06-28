@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: MathLibrary/PrimaryCheck.py
-    title: MathLibrary/PrimaryCheck.py
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -24,8 +21,7 @@ data:
     \ndef main() -> None:\n    ans = 0\n\n    n = int(input())\n    for _ in range(n):\n\
     \        ans += int(PrimaryCheck.PrimaryCheck(int(input())))\n    \n    print(ans)\n\
     \n\nif __name__ == \"__main__\":\n    main()"
-  dependsOn:
-  - MathLibrary/PrimaryCheck.py
+  dependsOn: []
   isVerificationFile: true
   path: Test/AOJ/ALDS1/ALDS1_1_C.test.py
   requiredBy: []

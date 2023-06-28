@@ -14,21 +14,22 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def XorToN(N: int) -> int:\n    \"0 \u301C N \u307E\u3067\u306E XOR \u306E\
-    \u5024\u3092\u8FD4\u3059\u95A2\u6570\"\n    \n    if N % 4 == 0:\n        return\
-    \ N\n    \n    if N % 4 == 1:\n        return 1\n    \n    if N % 4 == 2:\n  \
-    \      return N + 1\n    \n    if N % 4 == 3:\n        return 0\n\nprint(XorToN(196))"
+  code: "def extgcd(a: int, b: int) -> int:\n    \"ax + by = gcd(a,b) = d \u3068\u306A\
+    \u308B (x, y, d) \u3092\u8FD4\u3059\"\n    if b == 0:\n        return (1, 0, a)\n\
+    \n    q, r = a // b, a % b\n    x, y, d = extgcd(b, r)\n    s, t = y, x - q *\
+    \ y\n\n    return s, t, d # (qb + r)s + bt = d\u3068\u306A\u308B s, t, d\n\nans\
+    \ = extgcd(30, 50)\nprint(ans)"
   dependsOn: []
   isVerificationFile: false
-  path: MathLibrary/XorToN.py
+  path: Math/ExtGCD.py
   requiredBy: []
-  timestamp: '2022-05-30 00:16:39+09:00'
+  timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: MathLibrary/XorToN.py
+documentation_of: Math/ExtGCD.py
 layout: document
 redirect_from:
-- /library/MathLibrary/XorToN.py
-- /library/MathLibrary/XorToN.py.html
-title: MathLibrary/XorToN.py
+- /library/Math/ExtGCD.py
+- /library/Math/ExtGCD.py.html
+title: Math/ExtGCD.py
 ---
