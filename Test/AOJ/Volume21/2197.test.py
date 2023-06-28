@@ -1,6 +1,6 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2197&lang=jp
 
-def main():
+def main() -> None:
     while True:
         n = int(input())
         if n == 0:
