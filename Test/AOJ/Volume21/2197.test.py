@@ -1,4 +1,4 @@
-# verification-helper: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2197&lang=jp
+# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2197&lang=jp
 
 def main():
     while True:

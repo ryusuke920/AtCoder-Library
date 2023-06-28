@@ -1,6 +1,5 @@
 # verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1000&lang=en
 
-
 def main():
     while True:
         try:

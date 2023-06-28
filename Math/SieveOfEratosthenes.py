@@ -13,5 +13,11 @@ def primes(n: int) -> list:
 
     return [i for i, j in enumerate(is_prime) if j]
 
-x = primes(100) # 素数の全列挙
-print(len(x), x)
+
+def main() -> None:
+    x = primes(100)
+    print(len(x), x)
+
+
+if __name__ == "__main__":
+    main()
