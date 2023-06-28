@@ -247,11 +247,27 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume10/1000.test.py
       title: Test/AOJ/Volume10/1000.test.py
+  - name: Test/AOJ/Volume11
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume11/1147.test.py
+      title: Test/AOJ/Volume11/1147.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume11/1153.test.py
+      title: Test/AOJ/Volume11/1153.test.py
   - name: Test/AOJ/Volume16
     pages:
     - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume16/1608.test.py
+      title: Test/AOJ/Volume16/1608.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume16/1640.test.py
       title: Test/AOJ/Volume16/1640.test.py
+  - name: Test/AOJ/Volume21
+    pages:
+    - icon: ':x:'
+      path: Test/AOJ/Volume21/2197.test.py
+      title: Test/AOJ/Volume21/2197.test.py
   - name: Test/yosupo/DataStructure
     pages:
     - icon: ':heavy_check_mark:'
@@ -270,7 +286,7 @@ data:
       title: Test/yosupo/Sample/ManyA+B.test.py
   - name: Test/yukicoder
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0002.test.py
       title: Test/yukicoder/0002.test.py
     - icon: ':heavy_check_mark:'
@@ -282,7 +298,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0697.test.py
       title: Test/yukicoder/0697.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0847.test.py
       title: Test/yukicoder/0847.test.py
     - icon: ':heavy_check_mark:'

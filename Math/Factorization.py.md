@@ -4,6 +4,12 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/0002.test.py
+    title: Test/yukicoder/0002.test.py
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/0847.test.py
+    title: Test/yukicoder/0847.test.py
+  - icon: ':heavy_check_mark:'
     path: Test/yukicoder/1737.test.py
     title: Test/yukicoder/1737.test.py
   _isVerificationFailed: false
@@ -31,6 +37,8 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/1737.test.py
+  - Test/yukicoder/0847.test.py
+  - Test/yukicoder/0002.test.py
 documentation_of: Math/Factorization.py
 layout: document
 redirect_from:
