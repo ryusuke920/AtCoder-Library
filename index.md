@@ -99,7 +99,7 @@ data:
     - icon: ':warning:'
       path: Math/PrimaryCheck.py
       title: Math/PrimaryCheck.py
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Math/SieveOfEratosthenes.py
       title: Math/SieveOfEratosthenes.py
     - icon: ':warning:'
@@ -255,6 +255,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume11/1153.test.py
       title: Test/AOJ/Volume11/1153.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume11/1172.test.py
+      title: Test/AOJ/Volume11/1172.test.py
   - name: Test/AOJ/Volume16
     pages:
     - icon: ':heavy_check_mark:'
@@ -265,7 +268,7 @@ data:
       title: Test/AOJ/Volume16/1640.test.py
   - name: Test/AOJ/Volume21
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume21/2197.test.py
       title: Test/AOJ/Volume21/2197.test.py
   - name: Test/yosupo/DataStructure

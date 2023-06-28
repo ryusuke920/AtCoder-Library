@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/AOJ/Volume11/1172.test.py
+    title: Test/AOJ/Volume11/1172.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -18,15 +21,17 @@ data:
     \u3046\"\n\n    is_prime = [True] * (n + 1)\n    is_prime[0] = False\n    is_prime[1]\
     \ = False\n\n    for i in range(2, int(n ** 0.5) + 1):\n        if not is_prime[i]:\n\
     \            continue\n        for j in range(i * 2, n + 1, i):\n            is_prime[j]\
-    \ = False\n\n    return [i for i, j in enumerate(is_prime) if j]\n\nx = primes(100)\
-    \ # \u7D20\u6570\u306E\u5168\u5217\u6319\nprint(len(x), x)"
+    \ = False\n\n    return [i for i, j in enumerate(is_prime) if j]\n\n\ndef main()\
+    \ -> None:\n    x = primes(100)\n    print(len(x), x)\n\n\nif __name__ == \"__main__\"\
+    :\n    main()"
   dependsOn: []
   isVerificationFile: false
   path: Math/SieveOfEratosthenes.py
   requiredBy: []
-  timestamp: '2023-06-29 00:35:03+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  timestamp: '2023-06-29 01:19:46+09:00'
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/AOJ/Volume11/1172.test.py
 documentation_of: Math/SieveOfEratosthenes.py
 layout: document
 redirect_from:
