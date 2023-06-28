@@ -36,9 +36,9 @@ data:
   timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/yukicoder/1737.test.py
   - Test/yukicoder/0847.test.py
   - Test/yukicoder/0002.test.py
+  - Test/yukicoder/1737.test.py
 documentation_of: Math/Factorization.py
 layout: document
 redirect_from:

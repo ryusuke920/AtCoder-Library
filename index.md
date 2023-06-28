@@ -271,6 +271,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume21/2197.test.py
       title: Test/AOJ/Volume21/2197.test.py
+  - name: Test/AOJ/Volume32
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume32/3202.test.py
+      title: Test/AOJ/Volume32/3202.test.py
   - name: Test/yosupo/DataStructure
     pages:
     - icon: ':heavy_check_mark:'
