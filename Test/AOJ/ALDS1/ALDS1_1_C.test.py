@@ -3,7 +3,7 @@
 import sys
 sys.path.append("../../../")
 
-from MathLibrary import PrimaryCheck
+from Math import PrimaryCheck
 
 def main() -> None:
     ans = 0
