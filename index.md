@@ -271,6 +271,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume21/2197.test.py
       title: Test/AOJ/Volume21/2197.test.py
+  - name: Test/AOJ/Volume29
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume29/2944.test.py
+      title: Test/AOJ/Volume29/2944.test.py
   - name: Test/AOJ/Volume32
     pages:
     - icon: ':heavy_check_mark:'
@@ -310,6 +315,9 @@ data:
       path: Test/yukicoder/0847.test.py
       title: Test/yukicoder/0847.test.py
     - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/1003.test.py
+      title: Test/yukicoder/1003.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1639.test.py
       title: Test/yukicoder/1639.test.py
     - icon: ':heavy_check_mark:'
@@ -321,5 +329,8 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/2034.test.py
       title: Test/yukicoder/2034.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2093.test.py
+      title: Test/yukicoder/2093.test.py
 layout: toppage
 ---
