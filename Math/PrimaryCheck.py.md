@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/AOJ/ALDS1/ALDS1_1_C.test.py
+    title: Test/AOJ/ALDS1/ALDS1_1_C.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -22,8 +25,9 @@ data:
   path: Math/PrimaryCheck.py
   requiredBy: []
   timestamp: '2023-06-29 00:35:03+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/AOJ/ALDS1/ALDS1_1_C.test.py
 documentation_of: Math/PrimaryCheck.py
 layout: document
 redirect_from:

@@ -90,13 +90,13 @@ data:
     - icon: ':warning:'
       path: Math/ManhattanDistanceSearch.py
       title: Math/ManhattanDistanceSearch.py
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Math/MaxCumulativeSum.py
       title: Math/MaxCumulativeSum.py
     - icon: ':warning:'
       path: Math/NFactorizarition.py
       title: Math/NFactorizarition.py
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Math/PrimaryCheck.py
       title: Math/PrimaryCheck.py
     - icon: ':heavy_check_mark:'
@@ -281,6 +281,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/Volume32/3202.test.py
       title: Test/AOJ/Volume32/3202.test.py
+  - name: Test/AOJ/Volume5
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/AOJ/Volume5/0516.test.py
+      title: Test/AOJ/Volume5/0516.test.py
   - name: Test/yosupo/DataStructure
     pages:
     - icon: ':heavy_check_mark:'
