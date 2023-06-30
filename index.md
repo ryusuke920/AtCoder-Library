@@ -219,7 +219,7 @@ data:
       title: Test/AOJ/GRL/GRL_1_B.test.py
   - name: Test/AOJ/ITP1
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/ITP1/ALDS1_10_C.test.py
       title: Test/AOJ/ITP1/ALDS1_10_C.test.py
     - icon: ':heavy_check_mark:'
