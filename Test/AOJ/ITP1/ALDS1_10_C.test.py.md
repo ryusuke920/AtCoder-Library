@@ -7,7 +7,7 @@ data:
   _pathExtension: py
   _verificationStatusIcon: ':x:'
   attributes:
-    ERROR: 1e-5
+    ERROR: 1e-4
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja
     links:
     - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja
@@ -18,7 +18,7 @@ data:
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja\n\
-    # verification-helper: ERROR 1e-5\n\nfrom statistics import stdev\n\ndef main():\n\
+    # verification-helper: ERROR 1e-4\n\nfrom statistics import stdev\n\ndef main():\n\
     \    while True:\n        n = int(input())\n        if n == 0:\n            exit()\n\
     \        print(stdev(list(map(int, input().split()))))\n\n\nif __name__ == \"\
     __main__\":\n    main()"
