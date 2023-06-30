@@ -1,4 +1,5 @@
-# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja ERROR
+# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja
+# verification-helper: ERROR 1e-5
 
 from statistics import stdev
 
