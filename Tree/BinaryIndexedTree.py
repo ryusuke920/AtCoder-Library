@@ -27,9 +27,16 @@ def BIT(A: list) -> int:
                 A[i] = A2[i2]
                 i2 += 1
                 cnt += n // 2 - i1
+
     return cnt
 
-a = [2, 15, 23, 32, 7, 19]
-x = copy.copy(a)
-ans = BIT(x)
-print(ans)
+
+def main() -> None:
+    a = [2, 15, 23, 32, 7, 19]
+    x = copy.copy(a)
+    ans = BIT(x)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
