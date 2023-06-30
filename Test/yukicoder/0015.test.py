@@ -1,4 +1,5 @@
 # verification-helper: PROBLEM https://yukicoder.me/problems/no/9
+# verification-helper: IGNORE
 
 from itertools import product
 from bisect import bisect_right
