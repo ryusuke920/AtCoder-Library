@@ -8,6 +8,7 @@ data:
   _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja
+      ERROR
     links:
     - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -16,10 +17,10 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja\n\
-    \nfrom statistics import stdev\n\ndef main():\n    while True:\n        n = int(input())\n\
-    \        if n == 0:\n            exit()\n        print(stdev(list(map(int, input().split()))))\n\
-    \n\nif __name__ == \"__main__\":\n    main()"
+  code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_10_C&lang=ja\
+    \ ERROR\n\nfrom statistics import stdev\n\ndef main():\n    while True:\n    \
+    \    n = int(input())\n        if n == 0:\n            exit()\n        print(stdev(list(map(int,\
+    \ input().split()))))\n\n\nif __name__ == \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: true
   path: Test/AOJ/ITP1/ALDS1_10_C.test.py
