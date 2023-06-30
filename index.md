@@ -69,7 +69,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Math/Dice.py
       title: Math/Dice.py
-    - icon: ':warning:'
+    - icon: ':x:'
       path: Math/DigitSum_int.py
       title: Math/DigitSum_int.py
     - icon: ':warning:'
@@ -189,6 +189,12 @@ data:
   verificationCategories:
   - name: Test/AOJ/ALDS1
     pages:
+    - icon: ':x:'
+      path: Test/AOJ/ALDS1/ALDS1_10_C.test.py
+      title: Test/AOJ/ALDS1/ALDS1_10_C.test.py
+    - icon: ':x:'
+      path: Test/AOJ/ALDS1/ALDS1_10_D.test.py
+      title: Test/AOJ/ALDS1/ALDS1_10_D.test.py
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/ALDS1/ALDS1_13_A.test.py
       title: Test/AOJ/ALDS1/ALDS1_13_A.test.py
@@ -201,7 +207,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/ALDS1/ALDS1_4_B.test.py
       title: Test/AOJ/ALDS1/ALDS1_4_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/ALDS1/ALDS1_5_D.test.py
       title: Test/AOJ/ALDS1/ALDS1_5_D.test.py
   - name: Test/AOJ/DSL
@@ -237,6 +243,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/ITP1/ITP1_3_D.test.py
       title: Test/AOJ/ITP1/ITP1_3_D.test.py
+    - icon: ':x:'
+      path: Test/AOJ/ITP1/ITP1_8_B.test.py
+      title: Test/AOJ/ITP1/ITP1_8_B.test.py
   - name: Test/AOJ/Volume0
     pages:
     - icon: ':heavy_check_mark:'

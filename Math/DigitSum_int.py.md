@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: Test/AOJ/ITP1/ITP1_8_B.test.py
+    title: Test/AOJ/ITP1/ITP1_8_B.test.py
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -16,14 +19,15 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def DigitSum(num: int) -> int:\n    '''int \u578B\u306E\u6841\u548C\u3092\
     \u6C42\u3081\u308B'''\n    digit_sum = 0\n\n    while num > 0:\n        digit_sum\
-    \ += num % 10\n        num //= 10\n\n    return digit_sum\n\nprint(DigitSum(1234567890))"
+    \ += num % 10\n        num //= 10\n\n    return digit_sum"
   dependsOn: []
   isVerificationFile: false
   path: Math/DigitSum_int.py
   requiredBy: []
-  timestamp: '2023-06-29 00:35:03+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  timestamp: '2023-06-30 09:44:00+09:00'
+  verificationStatus: LIBRARY_ALL_WA
+  verifiedWith:
+  - Test/AOJ/ITP1/ITP1_8_B.test.py
 documentation_of: Math/DigitSum_int.py
 layout: document
 redirect_from:

@@ -3,35 +3,34 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
-    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_D
+    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_C
     links:
-    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_D
+    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_C
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_D\n\
-    \nimport sys\nsys.path.append(\"../../../\")\n\nfrom Tree import BinaryIndexedTree\n\
-    import copy\n\n\ndef main():\n    n = int(input())\n    a = list(map(int, input().split()))\n\
-    \n    x = copy.copy(a)\n    print(BinaryIndexedTree.BIT(x))\n\n\nif __name__ ==\
-    \ \"__main__\":\n    main()"
+  code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_10_C\n\
+    \nfrom statistics import stdev\n\ndef main():\n    while True:\n        n = int(input())\n\
+    \        if n == 0:\n            exit()\n        print(stdev(list(map(int, input().split()))))\n\
+    \n\nif __name__ == \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: true
-  path: Test/AOJ/ALDS1/ALDS1_5_D.test.py
+  path: Test/AOJ/ALDS1/ALDS1_10_C.test.py
   requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_ACCEPTED
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
-documentation_of: Test/AOJ/ALDS1/ALDS1_5_D.test.py
+documentation_of: Test/AOJ/ALDS1/ALDS1_10_C.test.py
 layout: document
 redirect_from:
-- /verify/Test/AOJ/ALDS1/ALDS1_5_D.test.py
-- /verify/Test/AOJ/ALDS1/ALDS1_5_D.test.py.html
-title: Test/AOJ/ALDS1/ALDS1_5_D.test.py
+- /verify/Test/AOJ/ALDS1/ALDS1_10_C.test.py
+- /verify/Test/AOJ/ALDS1/ALDS1_10_C.test.py.html
+title: Test/AOJ/ALDS1/ALDS1_10_C.test.py
 ---
