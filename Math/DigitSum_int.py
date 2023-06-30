@@ -7,5 +7,3 @@ def DigitSum(num: int) -> int:
         num //= 10
 
     return digit_sum
-
-print(DigitSum(1234567890))
