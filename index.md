@@ -201,6 +201,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/AOJ/ALDS1/ALDS1_4_B.test.py
       title: Test/AOJ/ALDS1/ALDS1_4_B.test.py
+    - icon: ':x:'
+      path: Test/AOJ/ALDS1/ALDS1_5_D.test.py
+      title: Test/AOJ/ALDS1/ALDS1_5_D.test.py
   - name: Test/AOJ/DSL
     pages:
     - icon: ':heavy_check_mark:'

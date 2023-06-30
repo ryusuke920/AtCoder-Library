@@ -3,9 +3,9 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_4_B
     links:
@@ -17,20 +17,21 @@ data:
     \  File \"/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_4_B\n\
-    \ndef main():\n    n = int(input())\n    s = set(list(map(int, input().split())))\n\
-    \    q = int(input())\n    t = set(list(map(int, input().split())))\n    \n  \
-    \  print(len(s & t))\n\n\nif __name__ == \"__main__\":\n    main()\n"
+    \nimport sys\nsys.path.append(\"../../../\")\n\nfrom Tree import BinaryIndexedTree\n\
+    import copy\n\n\ndef main():\n    n = int(input())\n    a = list(map(int, input().split()))\n\
+    \n    x = copy.copy(a)\n    print(BinaryIndexedTree.BIT(x))\n\n\nif __name__ ==\
+    \ \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: true
-  path: Test/AOJ/ALDS1/ALDS1_4_B.test.py
+  path: Test/AOJ/ALDS1/ALDS1_5_D.test.py
   requiredBy: []
-  timestamp: '2023-06-30 09:12:08+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '1970-01-01 00:00:00+00:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
-documentation_of: Test/AOJ/ALDS1/ALDS1_4_B.test.py
+documentation_of: Test/AOJ/ALDS1/ALDS1_5_D.test.py
 layout: document
 redirect_from:
-- /verify/Test/AOJ/ALDS1/ALDS1_4_B.test.py
-- /verify/Test/AOJ/ALDS1/ALDS1_4_B.test.py.html
-title: Test/AOJ/ALDS1/ALDS1_4_B.test.py
+- /verify/Test/AOJ/ALDS1/ALDS1_5_D.test.py
+- /verify/Test/AOJ/ALDS1/ALDS1_5_D.test.py.html
+title: Test/AOJ/ALDS1/ALDS1_5_D.test.py
 ---

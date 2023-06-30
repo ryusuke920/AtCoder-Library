@@ -24,8 +24,9 @@ data:
     \                A[i] = A2[i2]\n                i2 += 1\n            elif A1[i1]\
     \ <= A2[i2]:\n                A[i] = A1[i1]\n                i1 += 1\n       \
     \     else:\n                A[i] = A2[i2]\n                i2 += 1\n        \
-    \        cnt += n // 2 - i1\n    return cnt\n\na = [2, 15, 23, 32, 7, 19]\nx =\
-    \ copy.copy(a)\nans = BIT(x)\nprint(ans)"
+    \        cnt += n // 2 - i1\n\n    return cnt\n\n\ndef main() -> None:\n    a\
+    \ = [2, 15, 23, 32, 7, 19]\n    x = copy.copy(a)\n    ans = BIT(x)\n    print(ans)\n\
+    \n\nif __name__ == \"__main__\":\n    main()"
   dependsOn: []
   isVerificationFile: false
   path: Tree/BinaryIndexedTree.py
