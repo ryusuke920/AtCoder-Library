@@ -222,7 +222,7 @@ data:
     - icon: ':x:'
       path: Test/AOJ/ITP1/ALDS1_10_C.test.py
       title: Test/AOJ/ITP1/ALDS1_10_C.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/AOJ/ITP1/ALDS1_10_D.test.py
       title: Test/AOJ/ITP1/ALDS1_10_D.test.py
     - icon: ':heavy_check_mark:'
