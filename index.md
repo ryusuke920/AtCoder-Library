@@ -353,8 +353,35 @@ data:
       path: Test/yukicoder/0015.test.py
       title: Test/yukicoder/0015.test.py
     - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0044.test.py
+      title: Test/yukicoder/0044.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0053.test.py
+      title: Test/yukicoder/0053.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0064.test.py
+      title: Test/yukicoder/0064.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0167.test.py
+      title: Test/yukicoder/0167.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0182.test.py
       title: Test/yukicoder/0182.test.py
+    - icon: ':x:'
+      path: Test/yukicoder/0204.test.py
+      title: Test/yukicoder/0204.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0208.test.py
+      title: Test/yukicoder/0208.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0244.test.py
+      title: Test/yukicoder/0244.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0314.test.py
+      title: Test/yukicoder/0314.test.py
+    - icon: ':x:'
+      path: Test/yukicoder/0451.test.py
+      title: Test/yukicoder/0451.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0677.test.py
       title: Test/yukicoder/0677.test.py
@@ -362,17 +389,35 @@ data:
       path: Test/yukicoder/0697.test.py
       title: Test/yukicoder/0697.test.py
     - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/0713.test.py
+      title: Test/yukicoder/0713.test.py
+    - icon: ':x:'
+      path: Test/yukicoder/0786.test.py
+      title: Test/yukicoder/0786.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/0847.test.py
       title: Test/yukicoder/0847.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1003.test.py
       title: Test/yukicoder/1003.test.py
     - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/1155.test.py
+      title: Test/yukicoder/1155.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/1367.test.py
+      title: Test/yukicoder/1367.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/1454.test.py
+      title: Test/yukicoder/1454.test.py
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1639.test.py
       title: Test/yukicoder/1639.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1737.test.py
       title: Test/yukicoder/1737.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/1749.test.py
+      title: Test/yukicoder/1749.test.py
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/1808.test.py
       title: Test/yukicoder/1808.test.py
@@ -382,5 +427,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/2093.test.py
       title: Test/yukicoder/2093.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2371.test.py
+      title: Test/yukicoder/2371.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2373.test.py
+      title: Test/yukicoder/2373.test.py
 layout: toppage
 ---

@@ -9,6 +9,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/yukicoder/0007.test.py
     title: Test/yukicoder/0007.test.py
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/0713.test.py
+    title: Test/yukicoder/0713.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -35,6 +38,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/0007.test.py
+  - Test/yukicoder/0713.test.py
   - Test/AOJ/Volume11/1172.test.py
 documentation_of: Math/SieveOfEratosthenes.py
 layout: document
