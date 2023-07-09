@@ -5,14 +5,18 @@ sys.path.append("../../")
 
 from Math import Factorization
 
-n = int(input())
+def main() -> None:
+    n = int(input())
 
-if n == 1:
-    print(0)
-    exit()
+    if n == 1:
+        exit(print(0))
 
-ans = 0
-for i, j in Factorization.factorization(n):
-    ans += i * j
+    ans = 0
+    for i, j in Factorization.factorization(n):
+        ans += i * j
 
-print(ans)
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
