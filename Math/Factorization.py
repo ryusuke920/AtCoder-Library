@@ -18,5 +18,5 @@ def main() -> None:
     print(factorization(2592))
 
 
-if __name__ == "__main":
+if __name__ == "__main__":
     main()
