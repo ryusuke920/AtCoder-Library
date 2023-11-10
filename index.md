@@ -9,6 +9,9 @@ data:
     - icon: ':warning:'
       path: DP/LongestIncreasingSubsequence.py
       title: DP/LongestIncreasingSubsequence.py
+    - icon: ':warning:'
+      path: DP/SlideMinAlgorithm.py
+      title: DP/SlideMinAlgorithm.py
   - name: Geometry
     pages:
     - icon: ':warning:'
@@ -90,6 +93,9 @@ data:
     - icon: ':warning:'
       path: Math/ManhattanDistanceSearch.py
       title: Math/ManhattanDistanceSearch.py
+    - icon: ':warning:'
+      path: Math/MatrixPow.py
+      title: Math/MatrixPow.py
     - icon: ':heavy_check_mark:'
       path: Math/MaxCumulativeSum.py
       title: Math/MaxCumulativeSum.py
