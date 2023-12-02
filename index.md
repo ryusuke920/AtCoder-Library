@@ -10,6 +10,9 @@ data:
       path: DP/LongestIncreasingSubsequence.py
       title: DP/LongestIncreasingSubsequence.py
     - icon: ':warning:'
+      path: DP/SlideMaxAlgorithm.py
+      title: DP/SlideMaxAlgorithm.py
+    - icon: ':warning:'
       path: DP/SlideMinAlgorithm.py
       title: DP/SlideMinAlgorithm.py
   - name: Geometry
@@ -439,5 +442,17 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/2373.test.py
       title: Test/yukicoder/2373.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2557.test.py
+      title: Test/yukicoder/2557.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2558.test.py
+      title: Test/yukicoder/2558.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2559.test.py
+      title: Test/yukicoder/2559.test.py
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/2570.test.py
+      title: Test/yukicoder/2570.test.py
 layout: toppage
 ---

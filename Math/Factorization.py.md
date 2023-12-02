@@ -23,7 +23,7 @@ data:
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
     \  File \"/opt/hostedtoolcache/Python/3.12.0/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def factorization(n: int) -> int:\n    arr, tmp = [], n\n    for i in range(2,\
+  code: "def factorization(n: int) -> list:\n    arr, tmp = [], n\n    for i in range(2,\
     \ int(-(-n ** 0.5 // 1)) + 1):\n        if tmp % i == 0:\n            cnt = 0\n\
     \            while tmp % i == 0:\n                cnt += 1\n                tmp\
     \ //= i\n            arr.append([i, cnt])\n\n    if tmp != 1:\n        arr.append([tmp,\
@@ -33,11 +33,11 @@ data:
   isVerificationFile: false
   path: Math/Factorization.py
   requiredBy: []
-  timestamp: '2023-11-10 19:18:05+09:00'
+  timestamp: '2023-12-02 20:13:06+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/yukicoder/1737.test.py
   - Test/yukicoder/0002.test.py
+  - Test/yukicoder/1737.test.py
   - Test/yukicoder/0847.test.py
 documentation_of: Math/Factorization.py
 layout: document

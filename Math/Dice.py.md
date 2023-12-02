@@ -67,8 +67,8 @@ data:
   timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/AOJ/ITP1/ITP1_11_B.test.py
   - Test/AOJ/ITP1/ITP1_11_A.test.py
+  - Test/AOJ/ITP1/ITP1_11_B.test.py
 documentation_of: Math/Dice.py
 layout: document
 redirect_from:

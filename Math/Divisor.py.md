@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/AOJ/ITP1/ITP1_3_D.test.py
     title: Test/AOJ/ITP1/ITP1_3_D.test.py
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/2570.test.py
+    title: Test/yukicoder/2570.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -29,6 +32,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/AOJ/ITP1/ITP1_3_D.test.py
+  - Test/yukicoder/2570.test.py
 documentation_of: Math/Divisor.py
 layout: document
 redirect_from:
