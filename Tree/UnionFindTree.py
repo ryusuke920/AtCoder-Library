@@ -1,16 +1,16 @@
 class UnionFind:
-    def __init__(self, n):
+    def __init__(self, n: int) -> None:
         self.n = n
         self.p = [-1] * n
 
 
-    def leader(self, a):
+    def leader(self, a: int) -> int:
         while self.p[a] >= 0:
             a = self.p[a]
         return a
 
 
-    def merge(self, a, b):
+    def merge(self, a: int, b: int) -> int:
         x = self.leader(a)
         y = self.leader(b)
 
@@ -25,26 +25,34 @@ class UnionFind:
 
         return x
 
-    def same(self, a, b):
+    def same(self, a: int, b: int) -> bool:
         return self.leader(a) == self.leader(b)
 
-    def size(self, a):
+    def groups(self) -> list:
+        member = [[] for _ in range(self.n)]
+        for i in range(self.n):
+            member[self.leader(i)].append(i)
+        return member
+
+    def size(self, a: int) -> int:
         return -self.p[self.leader(a)]
 
-def main() -> None:
-    n, m = map(int, input().split())
 
-    uf = UnionFind(n)
+def main() -> None:
+    N, M = map(int, input().split())
+
+    UF = UnionFind(N)
 
     for _ in range(m):
-        a, b = map(int,input().split())
-        uf.merge(a - 1, b - 1)
+        A, B = map(lambda x: int(x) - 1,input().split())
+        UF.merge(A, B)
 
     ans = 0
-    for i in range(n):
-        ans = max(ans, uf.size(i))
+    for i in range(N):
+        ans = max(ans, UF.size(i))
 
     print(ans)
+
 
 if __name__ == "__main__":
     main()
