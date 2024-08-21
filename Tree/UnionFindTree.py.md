@@ -14,11 +14,11 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
-    \  File \"/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
+    \  File \"/opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class UnionFind:\n    def __init__(self, n: int) -> None:\n        self.n\
     \ = n\n        self.p = [-1] * n\n\n\n    def leader(self, a: int) -> int:\n \
@@ -43,8 +43,8 @@ data:
   timestamp: '2024-04-23 12:17:37+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/yosupo/DataStructure/Unionfind.test.py
   - Test/AOJ/DSL/DSL_1_A.test.py
+  - Test/yosupo/DataStructure/Unionfind.test.py
 documentation_of: Tree/UnionFindTree.py
 layout: document
 redirect_from:

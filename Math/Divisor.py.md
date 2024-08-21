@@ -14,11 +14,11 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
-    \  File \"/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
+    \  File \"/opt/hostedtoolcache/Python/3.12.5/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def divisors(n: int) -> list:\n    divisor = []\n    for i in range(1, int(n**0.5)\
     \ + 1):\n        if n % i == 0:\n            divisor.append(i)\n            if\
@@ -31,8 +31,8 @@ data:
   timestamp: '2023-06-29 00:35:03+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/AOJ/ITP1/ITP1_3_D.test.py
   - Test/yukicoder/2570.test.py
+  - Test/AOJ/ITP1/ITP1_3_D.test.py
 documentation_of: Math/Divisor.py
 layout: document
 redirect_from:

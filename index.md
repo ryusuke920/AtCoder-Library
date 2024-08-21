@@ -67,6 +67,9 @@ data:
       path: Math/BinaryToDecimal.py
       title: Math/BinaryToDecimal.py
     - icon: ':warning:'
+      path: Math/Combination.py
+      title: Math/Combination.py
+    - icon: ':warning:'
       path: Math/CumulativeSum.py
       title: Math/CumulativeSum.py
     - icon: ':warning:'
